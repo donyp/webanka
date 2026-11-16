@@ -97,11 +97,11 @@ export default async function AboutPage() {
               </span>
             </h1>
             <p className="mt-6 max-w-xl text-[1rem] leading-relaxed text-muted">
-              ANKA — Aneka Aksesoris adalah supplier dan distributor aksesoris
-              konstruksi asal Bekasi. Sejak {site.established}, kami membantu
-              kontraktor, toko bangunan, dan tim pengadaan mendapatkan material
-              yang tepat — dengan stok yang jelas dan pengiriman yang bisa
-              dijanjikan.
+              ANKA — Aneka Aksesoris, bagian dari {PARENT_GROUP}, adalah supplier
+              dan distributor aksesoris konstruksi asal Bekasi. Sejak{" "}
+              {site.established}, kami membantu kontraktor, toko bangunan, dan
+              tim pengadaan mendapatkan material yang tepat — dengan stok yang
+              jelas dan pengiriman yang bisa dijanjikan.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
