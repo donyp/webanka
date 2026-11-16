@@ -19,6 +19,7 @@ export type Product = {
   short: string;
   description: string;
   specs: { label: string; value: string }[];
+  guide?: string;
   tags: string[];
   featured?: boolean;
   badge?: string;

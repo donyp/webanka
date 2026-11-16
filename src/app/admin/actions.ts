@@ -194,6 +194,7 @@ async function readProduct(form: FormData): Promise<Product> {
     unit: text(form, "unit") || "pcs",
     short: text(form, "short"),
     description: text(form, "description"),
+    guide: text(form, "guide") || undefined,
     specs: parseSpecs(text(form, "specs")),
     tags: commaList(form, "tags"),
     featured: form.get("featured") === "on",

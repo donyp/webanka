@@ -222,6 +222,21 @@ export function ProductForm({
             />
           </Field>
 
+          <Field
+            label="Panduan untuk awam"
+            htmlFor="guide"
+            hint="Penjelasan sederhana: apa produknya, untuk apa, cara memilih ukuran, cara pakai, dan tips. Ditampilkan di halaman detail produk."
+          >
+            <textarea
+              id="guide"
+              name="guide"
+              rows={7}
+              defaultValue={product?.guide}
+              placeholder="Contoh: Produk ini adalah engsel stainless untuk pintu kayu. Cocok untuk pintu rumah dan proyek. Pilih ukuran sesuai berat pintu. Pasang dengan sekrup yang disertakan. Jika ragu, konsultasikan ke tim ANKA."
+              className={textareaClass}
+            />
+          </Field>
+
           <div className="grid gap-4 sm:grid-cols-2">
             <Field
               label="Spesifikasi"

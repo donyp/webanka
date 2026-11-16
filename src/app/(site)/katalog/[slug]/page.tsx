@@ -14,6 +14,7 @@ import {
   deriveSite,
   getRelated,
 } from "@/data/types";
+import { explainSpec } from "@/data/spec-glossary";
 
 export const instant = false;
 
@@ -264,17 +265,27 @@ export default async function ProductPage({
               Lembar data
             </h2>
             <dl className="mt-5 divide-y divide-line border-y border-line">
-              {product.specs.map((spec) => (
-                <div
-                  key={spec.label}
-                  className="flex items-baseline justify-between gap-6 py-3.5"
-                >
-                  <dt className="text-sm text-muted">{spec.label}</dt>
-                  <dd className="text-right text-sm font-semibold text-ink">
-                    {spec.value}
-                  </dd>
-                </div>
-              ))}
+              {product.specs.map((spec) => {
+                 const note = explainSpec(spec.label);
+                 return (
+                   <div
+                     key={spec.label}
+                     className="flex flex-col gap-1 py-3.5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6"
+                   >
+                     <div className="sm:max-w-[45%]">
+                       <dt className="text-sm text-muted">{spec.label}</dt>
+                       {note && (
+                         <p className="mt-0.5 text-[0.7rem] leading-snug text-muted/80">
+                           {note}
+                         </p>
+                       )}
+                     </div>
+                     <dd className="text-right text-sm font-semibold text-ink">
+                       {spec.value}
+                     </dd>
+                   </div>
+                 );
+               })}
               <div className="flex items-baseline justify-between gap-6 py-3.5">
                 <dt className="text-sm text-muted">Satuan</dt>
                 <dd className="text-right text-sm font-semibold text-ink">
@@ -285,6 +296,23 @@ export default async function ProductPage({
           </div>
         </div>
       </section>
+
+      {/* Panduan untuk awam */}
+      {product.guide && (
+        <section className="border-y border-line bg-paper">
+          <div className="shell py-14 lg:py-20">
+            <p className="eyebrow text-muted">Panduan</p>
+            <h2 className="mt-4 font-display text-[clamp(1.7rem,3vw,2.4rem)] font-semibold tracking-tight text-ink">
+              Penjelasan untuk awam
+            </h2>
+            <div className="mt-6 max-w-3xl space-y-4 text-[0.98rem] leading-[1.8] text-muted">
+              {product.guide.split("\n\n").map((paragraph, i) => (
+                <p key={i}>{paragraph}</p>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Related */}
       {related.length > 0 && (
