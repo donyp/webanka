@@ -4,6 +4,7 @@ import {
   Manrope,
   Space_Grotesk,
 } from "next/font/google";
+import { PARENT_GROUP } from "@/data/company";
 import { SITE_URL } from "@/lib/site-url";
 import "./globals.css";
 
@@ -34,8 +35,7 @@ export const metadata: Metadata = {
     default: "ANKA — Supplier & Distributor Aksesoris Konstruksi",
     template: "%s · ANKA",
   },
-  description:
-    "ANKA adalah supplier dan distributor aksesoris konstruksi: hardware pintu & jendela, pengencang, sealant, perkakas, railing, dan perlengkapan safety.",
+  description: `ANKA, bagian dari ${PARENT_GROUP}, adalah supplier dan distributor aksesoris konstruksi: hardware pintu & jendela, pengencang, sealant, perkakas, railing, dan perlengkapan safety.`,
   keywords: [
     "aksesoris konstruksi",
     "supplier aksesoris bangunan",
@@ -43,11 +43,12 @@ export const metadata: Metadata = {
     "sealant konstruksi",
     "baut dan sekrup proyek",
     "ANKA Aneka Aksesoris",
+    "Mega Group Indonesia",
+    "Mega Baja",
   ],
   openGraph: {
     title: "ANKA — Supplier & Distributor Aksesoris Konstruksi",
-    description:
-      "Aksesoris konstruksi yang tepat, stok yang jelas, dan pengiriman yang tidak menahan proyek.",
+    description: `Aksesoris konstruksi yang tepat, stok yang jelas, dan pengiriman yang tidak menahan proyek. Bagian dari ${PARENT_GROUP}.`,
     type: "website",
     locale: "id_ID",
     siteName: "ANKA — Aneka Aksesoris",
@@ -55,8 +56,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "ANKA — Supplier & Distributor Aksesoris Konstruksi",
-    description:
-      "Aksesoris konstruksi yang tepat, stok yang jelas, dan pengiriman yang tidak menahan proyek.",
+    description: `Aksesoris konstruksi yang tepat, stok yang jelas, dan pengiriman yang tidak menahan proyek. Bagian dari ${PARENT_GROUP}.`,
   },
 };
 

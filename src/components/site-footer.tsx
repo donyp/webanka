@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Logo } from "./logo";
 import { ArrowUpRight, Mail, MapPin, Phone } from "./icons";
 import type { Category, NavItem, SiteLinks } from "@/data/types";
+import { PARENT_GROUP } from "@/data/company";
 
 // Resolved once at build time so the page can be fully prerendered.
 const CURRENT_YEAR = new Date().getFullYear();
@@ -24,6 +25,9 @@ export function SiteFooter({
             <p className="mt-6 text-sm leading-relaxed text-paper/60">
               {site.tagline}. Melayani kontraktor, toko bangunan, dan pemilik
               proyek dengan stok yang jelas dan pengiriman yang tepat waktu.
+            </p>
+            <p className="mt-4 text-xs font-semibold text-paper/45">
+              Bagian dari {PARENT_GROUP}
             </p>
             <Link
               href="/kontak"

@@ -3,6 +3,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { getContent } from "@/lib/content";
 import { deriveSite } from "@/data/types";
+import { PARENT_GROUP_ALT, PARENT_GROUP_NAME } from "@/data/company";
 import { SITE_URL } from "@/lib/site-url";
 
 // Content is editable from /admin, so public pages render against the store
@@ -25,6 +26,11 @@ export default async function SiteLayout({
     description: site.description,
     telephone: site.phone,
     email: site.email,
+    parentOrganization: {
+      "@type": "Organization",
+      name: PARENT_GROUP_NAME,
+      alternateName: PARENT_GROUP_ALT,
+    },
     address: {
       "@type": "PostalAddress",
       streetAddress: site.address,

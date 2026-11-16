@@ -6,13 +6,17 @@ import { SectionHeading } from "@/components/section-heading";
 import { ArrowRight, ArrowUpRight, Check } from "@/components/icons";
 import { getContent } from "@/lib/content";
 import { deriveSite } from "@/data/types";
+import {
+  PARENT_GROUP,
+  PARENT_GROUP_ALT,
+  PARENT_GROUP_NAME,
+} from "@/data/company";
 
 export const instant = false;
 
 export const metadata: Metadata = {
   title: "Tentang Kami",
-  description:
-    "Kenali ANKA — Aneka Aksesoris: supplier dan distributor aksesoris konstruksi asal Bekasi yang melayani kontraktor, toko bangunan, dan proyek sejak 2012.",
+  description: `Kenali ANKA — Aneka Aksesoris, bagian dari ${PARENT_GROUP}: supplier dan distributor aksesoris konstruksi asal Bekasi yang melayani kontraktor, toko bangunan, dan proyek sejak 2012.`,
 };
 
 const timeline = [
@@ -68,6 +72,7 @@ export default async function AboutPage() {
   const facts = [
     { label: "Nama resmi", value: site.legalName },
     { label: "Berdiri", value: String(site.established) },
+    { label: "Naungan", value: PARENT_GROUP },
     { label: "Basis operasional", value: site.addressShort },
     { label: "Fokus", value: "Aksesoris konstruksi" },
     { label: "Pelanggan", value: "Kontraktor, reseller, proyek" },
@@ -175,6 +180,26 @@ export default async function AboutPage() {
               </p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Naungan grup */}
+      <section id="grup" className="scroll-mt-24 border-b border-line">
+        <div className="shell flex flex-col gap-6 py-10 sm:flex-row sm:items-center sm:justify-between lg:py-12">
+          <div>
+            <p className="eyebrow text-muted">Bagian dari</p>
+            <p className="mt-2 font-display text-2xl font-semibold tracking-[-0.03em] text-ink">
+              {PARENT_GROUP_NAME}{" "}
+              <span className="font-serif font-normal italic text-accent">
+                ({PARENT_GROUP_ALT})
+              </span>
+            </p>
+          </div>
+          <p className="max-w-lg text-sm leading-relaxed text-muted">
+            ANKA beroperasi sebagai bagian dari {PARENT_GROUP}. Dukungan grup
+            memperkuat kapasitas kami dalam pengadaan, penyimpanan, dan
+            distribusi aksesoris konstruksi.
+          </p>
         </div>
       </section>
 
