@@ -1,0 +1,1908 @@
+{
+  "settings": {
+    "name": "ANKA",
+    "fullName": "Aneka Aksesoris",
+    "legalName": "ANKA — Aneka Aksesoris",
+    "tagline": "Supplier & Distributor Aksesoris Konstruksi",
+    "description": "ANKA adalah supplier dan distributor aksesoris konstruksi: hardware pintu & jendela, pengencang, sealant, perkakas, railing, dan perlengkapan safety untuk proyek skala kecil hingga besar.",
+    "phone": "+62 812-3456-7890",
+    "whatsapp": "6281234567890",
+    "email": "sales@anka.co.id",
+    "address": "Jl. Raya Konstruksi No. 88, Bekasi Timur, Jawa Barat 17113",
+    "addressShort": "Bekasi, Jawa Barat",
+    "hours": "Senin – Sabtu, 08.00 – 17.00 WIB",
+    "mapQuery": "Bekasi Timur, Jawa Barat",
+    "established": 2012,
+    "adminEmail": ""
+  },
+  "hero": {
+    "eyebrow": "Supplier & Distributor",
+    "headline": "Presisi di setiap",
+    "accent": "sambungan.",
+    "subcopy": "Aksesoris konstruksi yang tepat, stok yang jelas, dan pengiriman yang tidak menahan proyek. Dari engsel pintu sampai anchor beton — satu pemasok untuk semuanya.",
+    "primaryLabel": "Jelajahi Katalog",
+    "primaryHref": "/katalog",
+    "secondaryLabel": "Minta Penawaran",
+    "secondaryHref": "/kontak",
+    "badge": "Stok siap kirim",
+    "points": [
+      "Harga distributor",
+      "Kirim Jabodetabek",
+      "Respon 24 jam"
+    ],
+    "marquee": [
+      "Hardware Pintu",
+      "Anchor & Baut",
+      "Sealant",
+      "Power Tools",
+      "Railing",
+      "Safety",
+      "Distribusi Proyek",
+      "Stok Siap Kirim"
+    ]
+  },
+  "nav": [
+    {
+      "label": "Beranda",
+      "href": "/"
+    },
+    {
+      "label": "Katalog",
+      "href": "/katalog"
+    },
+    {
+      "label": "Layanan",
+      "href": "/layanan"
+    },
+    {
+      "label": "Tentang",
+      "href": "/tentang"
+    },
+    {
+      "label": "Kontak",
+      "href": "/kontak"
+    },
+    {
+      "label": "Artikel",
+      "href": "/artikel"
+    },
+    {
+      "label": "Cari",
+      "href": "/cari"
+    }
+  ],
+  "stats": [
+    {
+      "value": "12+",
+      "label": "Tahun melayani"
+    },
+    {
+      "value": "480+",
+      "label": "SKU aktif"
+    },
+    {
+      "value": "300+",
+      "label": "Proyek terkirim"
+    },
+    {
+      "value": "24 jam",
+      "label": "Respon penawaran"
+    }
+  ],
+  "values": [
+    {
+      "index": "01",
+      "title": "Stok yang benar-benar ada",
+      "body": "Katalog kami mencerminkan stok gudang, bukan daftar panjang tanpa kepastian. Konfirmasi ketersediaan dalam hitungan menit."
+    },
+    {
+      "index": "02",
+      "title": "Harga distributor",
+      "body": "Pola harga bertingkat untuk kontraktor, toko bangunan, dan pembelian proyek dengan volume besar."
+    },
+    {
+      "index": "03",
+      "title": "Pengiriman terjadwal",
+      "body": "Armada sendiri untuk Jabodetabek dan mitra logistik untuk luar kota. Barang sampai sesuai jadwal proyek."
+    },
+    {
+      "index": "04",
+      "title": "Pendampingan teknis",
+      "body": "Tim kami membantu memilih spesifikasi yang tepat — dari beban engsel sampai ketahanan sealant."
+    }
+  ],
+  "services": [
+    {
+      "index": "01",
+      "title": "Supply Material Proyek",
+      "body": "Pengadaan aksesoris konstruksi untuk satu proyek atau banyak lokasi sekaligus, dengan penawaran resmi dan jadwal kirim yang jelas.",
+      "points": [
+        "Penawaran resmi (RFQ)",
+        "Harga volume proyek",
+        "Pengiriman bertahap"
+      ]
+    },
+    {
+      "index": "02",
+      "title": "Distribusi & Reseller",
+      "body": "Program kemitraan untuk toko bangunan dan distributor daerah: harga khusus, katalog bersama, dan dukungan stok.",
+      "points": [
+        "Harga reseller",
+        "Dukungan katalog",
+        "Prioritas stok"
+      ]
+    },
+    {
+      "index": "03",
+      "title": "Konsultasi Spesifikasi",
+      "body": "Bantu menentukan aksesoris yang tepat berdasarkan material, beban, dan kondisi pemasangan di lapangan.",
+      "points": [
+        "Rekomendasi teknis",
+        "Perbandingan produk",
+        "Contoh & sampel"
+      ]
+    },
+    {
+      "index": "04",
+      "title": "Custom Sourcing",
+      "body": "Butuh ukuran, finishing, atau merek tertentu? Kami bantu carikan dari jaringan pemasok yang sudah terkurasi.",
+      "points": [
+        "Sourcing khusus",
+        "Kontrol kualitas",
+        "Kontrak pasokan"
+      ]
+    }
+  ],
+  "process": [
+    {
+      "step": "01",
+      "title": "Kirim kebutuhan",
+      "body": "Isi form RFQ atau hubungi WhatsApp dengan daftar barang, volume, dan lokasi proyek."
+    },
+    {
+      "step": "02",
+      "title": "Kami cek & penawaran",
+      "body": "Tim memverifikasi stok dan mengirim penawaran resmi, biasanya dalam 24 jam kerja."
+    },
+    {
+      "step": "03",
+      "title": "Konfirmasi & pembayaran",
+      "body": "Setujui penawaran, pilih metode pembayaran, dan jadwal pengiriman dikunci."
+    },
+    {
+      "step": "04",
+      "title": "Kirim & dokumentasi",
+      "body": "Barang dikirim dengan surat jalan dan invoice. Kami pantau sampai diterima di lokasi."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "ANKA jadi salah satu pemasok andalan kami. Barangnya konsisten, dan kalau ada item yang perlu dicek, responnya cepat.",
+      "name": "Rendra Wibowo",
+      "role": "Project Manager, konstruksi komersial"
+    },
+    {
+      "quote": "Harga untuk volume proyek masuk akal, pengiriman ke lokasi selalu sesuai jadwal. Tidak pernah menahan pekerjaan.",
+      "name": "Siti Halimah",
+      "role": "Procurement, kontraktor residensial"
+    },
+    {
+      "quote": "Sebagai toko bangunan, saya butuh pemasok yang stoknya jelas. ANKA membantu dari katalog sampai pengiriman.",
+      "name": "Agus Pranoto",
+      "role": "Pemilik toko material, Bekasi"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah bisa membeli dalam jumlah kecil?",
+      "a": "Bisa. Kami melayani pembelian retail maupun volume proyek. Harga khusus berlaku untuk pembelian dalam jumlah tertentu."
+    },
+    {
+      "q": "Bagaimana cara mendapatkan penawaran?",
+      "a": "Kirim daftar kebutuhan melalui form di halaman Kontak atau WhatsApp. Sertakan nama barang, jumlah, dan lokasi pengiriman. Penawaran kami kirim maksimal 24 jam kerja."
+    },
+    {
+      "q": "Apakah melayani pengiriman luar kota?",
+      "a": "Ya. Jabodetabek menggunakan armada sendiri, sementara luar kota melalui mitra logistik terpercaya dengan asuransi pengiriman opsional."
+    },
+    {
+      "q": "Apakah ada program reseller?",
+      "a": "Ada. Toko bangunan dan distributor dapat mendaftar sebagai mitra untuk mendapatkan harga reseller dan dukungan katalog."
+    },
+    {
+      "q": "Bagaimana kebijakan pengembalian barang?",
+      "a": "Barang yang tidak sesuai atau cacat produksi dapat diklaim maksimal 3 hari setelah diterima, dengan foto dan surat jalan sebagai bukti."
+    }
+  ],
+  "categories": [
+    {
+      "slug": "pintu-jendela",
+      "name": "Pintu & Jendela",
+      "blurb": "Engsel, handle, kunci tanam, door closer, dan komponen daun pintu.",
+      "icon": "door",
+      "tint": "#f0d9a9",
+      "ink": "#5b4312"
+    },
+    {
+      "slug": "pengencang",
+      "name": "Pengencang",
+      "blurb": "Sekrup, baut, dynabolt, anchor, dan rivet untuk semua material.",
+      "icon": "screw",
+      "tint": "#c8d8e6",
+      "ink": "#1d3f59"
+    },
+    {
+      "slug": "sealant",
+      "name": "Sealant & Perekat",
+      "blurb": "Silicone, PU, epoxy, foam, dan coating pelindung sambungan.",
+      "icon": "tube",
+      "tint": "#d3e0ca",
+      "ink": "#2e4a2b"
+    },
+    {
+      "slug": "perkakas",
+      "name": "Alat & Perkakas",
+      "blurb": "Bor, gerinda, meteran laser, dan set perkakas profesional.",
+      "icon": "drill",
+      "tint": "#ecd2c2",
+      "ink": "#5b3322"
+    },
+    {
+      "slug": "railing",
+      "name": "Railing & Tangga",
+      "blurb": "Handrail, bracket kaca, dan tangga aluminium untuk area publik.",
+      "icon": "railing",
+      "tint": "#d6d9dd",
+      "ink": "#323941"
+    },
+    {
+      "slug": "safety",
+      "name": "Safety & Proteksi",
+      "blurb": "Helm, rompi, sarung tangan, dan kacamata standar proyek.",
+      "icon": "helmet",
+      "tint": "#e7dfa6",
+      "ink": "#4a430f"
+    },
+    {
+      "slug": "cat-coating",
+      "name": "Cat & Coating",
+      "blurb": "Cat alkyd, hammertone, dan thinner untuk finishing metal dan kayu.",
+      "icon": "tube",
+      "tint": "#f4d6d6",
+      "ink": "#5b1a1a"
+    },
+    {
+      "slug": "insulasi",
+      "name": "Insulasi & Foil",
+      "blurb": "Bubble foil dan woven foil metalizing untuk insulasi panas dan uap.",
+      "icon": "drill",
+      "tint": "#d6e6f4",
+      "ink": "#1a3a5b"
+    }
+  ],
+  "products": [
+    {
+      "slug": "anka-dynabolt",
+      "name": "ANKA Dynabolt",
+      "category": "pengencang",
+      "brand": "ANKA",
+      "sku": "ANK-DB-01",
+      "unit": "pcs",
+      "short": "Dynabolt baja untuk anchor beton dan bata.",
+      "description": "Dynabolt expansion anchor untuk pemasangan pada beton dan bata.",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Baja"
+        },
+        {
+          "label": "Ukuran",
+          "value": "M8, M10, M12"
+        },
+        {
+          "label": "Tipe",
+          "value": "Expansion anchor"
+        },
+        {
+          "label": "Aplikasi",
+          "value": "Beton, bata"
+        }
+      ],
+      "tags": [
+        "dynabolt",
+        "anchor",
+        "anka",
+        "internal"
+      ],
+      "featured": true,
+      "badge": "Internal",
+      "image": "/images/products/pengencang.svg"
+    },
+    {
+      "slug": "thinner-high-gloss-anka",
+      "name": "Thinner High Gloss ANKA",
+      "category": "cat-coating",
+      "brand": "ANKA",
+      "sku": "ANK-TH-HG",
+      "unit": "liter",
+      "short": "Thinner high gloss untuk pengencer cat alkyd.",
+      "description": "Thinner high gloss untuk pengencer cat alkyd dan hammertone.",
+      "specs": [
+        {
+          "label": "Jenis",
+          "value": "Thinner high gloss"
+        },
+        {
+          "label": "Volume",
+          "value": "1 liter"
+        },
+        {
+          "label": "Kegunaan",
+          "value": "Pengencer cat alkyd"
+        }
+      ],
+      "tags": [
+        "thinner",
+        "high gloss",
+        "anka",
+        "internal"
+      ],
+      "featured": true,
+      "badge": "Internal",
+      "image": "/images/products/cat-coating.svg"
+    },
+    {
+      "slug": "cat-hammertone-anka",
+      "name": "Cat Hammertone ANKA",
+      "category": "cat-coating",
+      "brand": "ANKA",
+      "sku": "ANK-CT-HT",
+      "unit": "kaleng",
+      "short": "Cat hammertone untuk tampilan tekstur metal.",
+      "description": "Cat hammertone dengan finish tekstur untuk permukaan metal.",
+      "specs": [
+        {
+          "label": "Jenis",
+          "value": "Hammertone"
+        },
+        {
+          "label": "Finish",
+          "value": "Tekstur"
+        },
+        {
+          "label": "Volume",
+          "value": "1 liter"
+        },
+        {
+          "label": "Pengencer",
+          "value": "Thinner high gloss"
+        }
+      ],
+      "tags": [
+        "cat hammertone",
+        "cat",
+        "anka",
+        "internal"
+      ],
+      "featured": true,
+      "badge": "Internal",
+      "image": "/images/products/cat-coating.svg"
+    },
+    {
+      "slug": "cat-alkyd-anka",
+      "name": "Cat Alkyd ANKA",
+      "category": "cat-coating",
+      "brand": "ANKA",
+      "sku": "ANK-CT-AL",
+      "unit": "kaleng",
+      "short": "Cat alkyd gloss untuk metal dan kayu.",
+      "description": "Cat alkyd dengan finish gloss untuk permukaan metal dan kayu.",
+      "specs": [
+        {
+          "label": "Jenis",
+          "value": "Alkyd"
+        },
+        {
+          "label": "Finish",
+          "value": "Gloss"
+        },
+        {
+          "label": "Volume",
+          "value": "1 liter"
+        },
+        {
+          "label": "Pengencer",
+          "value": "Thinner high gloss"
+        }
+      ],
+      "tags": [
+        "cat alkyd",
+        "cat",
+        "anka",
+        "internal"
+      ],
+      "featured": true,
+      "badge": "Internal",
+      "image": "/images/products/cat-coating.svg"
+    },
+    {
+      "slug": "roda-pagar-anka",
+      "name": "Roda Pagar ANKA",
+      "category": "railing",
+      "brand": "ANKA",
+      "sku": "ANK-RP-01",
+      "unit": "pcs",
+      "short": "Roda pagar besi/nylon untuk pintu geser dan pagar.",
+      "description": "Roda pagar untuk pintu geser dan pagar dengan beban menengah.",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Besi / nylon"
+        },
+        {
+          "label": "Diameter",
+          "value": "100 mm"
+        },
+        {
+          "label": "Beban",
+          "value": "100 kg"
+        },
+        {
+          "label": "Tipe",
+          "value": "Roda pagar"
+        }
+      ],
+      "tags": [
+        "roda pagar",
+        "gate wheel",
+        "anka",
+        "internal"
+      ],
+      "featured": true,
+      "badge": "Internal",
+      "image": "/images/products/railing.svg"
+    },
+    {
+      "slug": "woven-foil-single-side-anka",
+      "name": "Woven Foil Metalizing Single Side ANKA",
+      "category": "insulasi",
+      "brand": "ANKA",
+      "sku": "ANK-WF-SS",
+      "unit": "roll",
+      "short": "Woven foil metalizing single side untuk insulasi atap.",
+      "description": "Woven foil dengan lapisan metalizing single side untuk insulasi atap dan dinding.",
+      "specs": [
+        {
+          "label": "Lebar",
+          "value": "1.2 m"
+        },
+        {
+          "label": "Panjang",
+          "value": "50 m"
+        },
+        {
+          "label": "Lapisan",
+          "value": "Single side"
+        },
+        {
+          "label": "Material",
+          "value": "Woven + foil aluminium"
+        }
+      ],
+      "tags": [
+        "woven foil",
+        "single side",
+        "insulasi",
+        "anka",
+        "internal"
+      ],
+      "featured": true,
+      "badge": "Internal",
+      "image": "/images/products/insulasi.svg"
+    },
+    {
+      "slug": "woven-foil-double-side-anka",
+      "name": "Woven Foil Metalizing Double Side ANKA",
+      "category": "insulasi",
+      "brand": "ANKA",
+      "sku": "ANK-WF-DS",
+      "unit": "roll",
+      "short": "Woven foil metalizing double side untuk refleksi panas maksimal.",
+      "description": "Woven foil dengan lapisan metalizing double side untuk refleksi panas dua arah.",
+      "specs": [
+        {
+          "label": "Lebar",
+          "value": "1.2 m"
+        },
+        {
+          "label": "Panjang",
+          "value": "50 m"
+        },
+        {
+          "label": "Lapisan",
+          "value": "Double side"
+        },
+        {
+          "label": "Material",
+          "value": "Woven + foil aluminium"
+        }
+      ],
+      "tags": [
+        "woven foil",
+        "double side",
+        "insulasi",
+        "anka",
+        "internal"
+      ],
+      "featured": true,
+      "badge": "Internal",
+      "image": "/images/products/insulasi.svg"
+    },
+    {
+      "slug": "bubble-foil-metalizing-anka",
+      "name": "Bubble Foil Metalizing ANKA",
+      "category": "insulasi",
+      "brand": "ANKA",
+      "sku": "ANK-BF-MT",
+      "unit": "roll",
+      "short": "Bubble foil metalizing untuk insulasi panas dan uap air.",
+      "description": "Bubble foil dengan lapisan aluminium metalizing untuk insulasi atap dan dinding.",
+      "specs": [
+        {
+          "label": "Lebar",
+          "value": "1.2 m"
+        },
+        {
+          "label": "Panjang",
+          "value": "50 m"
+        },
+        {
+          "label": "Material",
+          "value": "Bubble PE + foil aluminium"
+        },
+        {
+          "label": "Fungsi",
+          "value": "Insulasi panas & uap"
+        }
+      ],
+      "tags": [
+        "bubble foil",
+        "insulasi",
+        "metalizing",
+        "anka",
+        "internal"
+      ],
+      "featured": true,
+      "badge": "Internal",
+      "image": "/images/products/insulasi.svg"
+    },
+    {
+      "slug": "batu-gerinda-14-anka",
+      "name": "Batu Gerinda 14 Inch ANKA",
+      "category": "perkakas",
+      "brand": "ANKA",
+      "sku": "ANK-BG-14",
+      "unit": "pcs",
+      "short": "Batu gerinda 14 inch untuk pemotongan material tebal.",
+      "description": "Batu gerinda besar diameter 14 inch untuk pemotongan plat dan besi tebal.",
+      "specs": [
+        {
+          "label": "Diameter",
+          "value": "14 inch (350 mm)"
+        },
+        {
+          "label": "Tebal",
+          "value": "3.2 mm"
+        },
+        {
+          "label": "Arbor",
+          "value": "25.4 mm (1 inch)"
+        },
+        {
+          "label": "Material",
+          "value": "Alumina"
+        }
+      ],
+      "tags": [
+        "batu gerinda",
+        "gerinda",
+        "anka",
+        "internal"
+      ],
+      "featured": true,
+      "badge": "Internal",
+      "image": "/images/products/perkakas.svg"
+    },
+    {
+      "slug": "batu-gerinda-4x6-anka",
+      "name": "Batu Gerinda 4 x 6 ANKA",
+      "category": "perkakas",
+      "brand": "ANKA",
+      "sku": "ANK-BG-406",
+      "unit": "pcs",
+      "short": "Batu gerinda tebal 4 inch x 6 mm untuk penggerindaan.",
+      "description": "Batu gerinda tebal diameter 4 inch untuk penggerindaan dan penyelesaian permukaan.",
+      "specs": [
+        {
+          "label": "Diameter",
+          "value": "4 inch (100 mm)"
+        },
+        {
+          "label": "Tebal",
+          "value": "6 mm"
+        },
+        {
+          "label": "Arbor",
+          "value": "7/8 inch"
+        },
+        {
+          "label": "Material",
+          "value": "Alumina"
+        }
+      ],
+      "tags": [
+        "batu gerinda",
+        "gerinda",
+        "anka",
+        "internal"
+      ],
+      "featured": true,
+      "badge": "Internal",
+      "image": "/images/products/perkakas.svg"
+    },
+    {
+      "slug": "batu-gerinda-4x12-anka",
+      "name": "Batu Gerinda 4 x 1.2 ANKA",
+      "category": "perkakas",
+      "brand": "ANKA",
+      "sku": "ANK-BG-412",
+      "unit": "pcs",
+      "short": "Batu gerinda tipis 4 inch x 1.2 mm untuk potong cepat.",
+      "description": "Batu gerinda potong tipis diameter 4 inch, cocok untuk potong besi dan baja.",
+      "specs": [
+        {
+          "label": "Diameter",
+          "value": "4 inch (100 mm)"
+        },
+        {
+          "label": "Tebal",
+          "value": "1.2 mm"
+        },
+        {
+          "label": "Arbor",
+          "value": "7/8 inch"
+        },
+        {
+          "label": "Material",
+          "value": "Alumina"
+        }
+      ],
+      "tags": [
+        "batu gerinda",
+        "gerinda",
+        "anka",
+        "internal"
+      ],
+      "featured": true,
+      "badge": "Internal",
+      "image": "/images/products/perkakas.svg"
+    },
+    {
+      "slug": "sealant-neutral-anka",
+      "name": "Sealant Neutral ANKA",
+      "category": "sealant",
+      "brand": "ANKA",
+      "sku": "ANK-SL-NT",
+      "unit": "tube",
+      "short": "Sealant neutral cure untuk beton, logam, dan material sensitif.",
+      "description": "Sealant neutral cure yang aman untuk beton, logam, dan permukaan sensitif.",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Neutral cure"
+        },
+        {
+          "label": "Volume",
+          "value": "300 ml"
+        },
+        {
+          "label": "Warna",
+          "value": "Clear / Grey"
+        },
+        {
+          "label": "Cure time",
+          "value": "24-48 jam"
+        },
+        {
+          "label": "Aplikasi",
+          "value": "Beton, logam, sensitif"
+        }
+      ],
+      "tags": [
+        "sealant",
+        "neutral",
+        "anka",
+        "internal"
+      ],
+      "featured": true,
+      "badge": "Internal",
+      "image": "/images/products/sealant.svg"
+    },
+    {
+      "slug": "sealant-acetic-anka",
+      "name": "Sealant Acetic ANKA",
+      "category": "sealant",
+      "brand": "ANKA",
+      "sku": "ANK-SL-AC",
+      "unit": "tube",
+      "short": "Sealant acetic cure untuk aplikasi umum, cepat kering dan elastis.",
+      "description": "Sealant berbasis acetic cure untuk sealing dan bonding pada kaca, keramik, dan logam.",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Acetic cure"
+        },
+        {
+          "label": "Volume",
+          "value": "300 ml"
+        },
+        {
+          "label": "Warna",
+          "value": "Clear / White"
+        },
+        {
+          "label": "Cure time",
+          "value": "24 jam"
+        },
+        {
+          "label": "Aplikasi",
+          "value": "Kaca, keramik, logam"
+        }
+      ],
+      "tags": [
+        "sealant",
+        "acetic",
+        "anka",
+        "internal"
+      ],
+      "featured": true,
+      "badge": "Internal",
+      "image": "/images/products/sealant.svg"
+    },
+    {
+      "slug": "engsel-pintu-stainless-4-inci",
+      "name": "Engsel Pintu Stainless 4\"",
+      "category": "pintu-jendela",
+      "brand": "ANKA Pro",
+      "sku": "ANK-DH-401",
+      "unit": "set",
+      "short": "Engsel stainless 304 untuk pintu kayu dan panel, tahan karat.",
+      "description": "Engsel pintu stainless steel 304 berukuran 4 inci dengan bantalan senyap. Cocok untuk pintu kayu solid, HDF, maupun panel komposit pada hunian dan bangunan komersial. Finishing satin yang mudah dipadukan dengan berbagai gagang pintu.",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Stainless steel 304"
+        },
+        {
+          "label": "Ukuran",
+          "value": "4 inci (102 mm)"
+        },
+        {
+          "label": "Beban",
+          "value": "Hingga 40 kg / 3 engsel"
+        },
+        {
+          "label": "Finishing",
+          "value": "Satin brushed"
+        }
+      ],
+      "tags": [
+        "engsel",
+        "pintu",
+        "stainless",
+        "hardware"
+      ],
+      "featured": true,
+      "badge": "Terlaris",
+      "image": "/images/products/pintu-jendela.svg"
+    },
+    {
+      "slug": "handle-pintu-lever-stainless",
+      "name": "Handle Pintu Lever Stainless",
+      "category": "pintu-jendela",
+      "brand": "VULCAN",
+      "sku": "VLC-HL-220",
+      "unit": "set",
+      "short": "Gagang pintu tuas dengan rose bulat, mekanisme halus.",
+      "description": "Handle pintu model lever dengan rose bulat dan mekanisme spring yang halus. Dibuat dari stainless steel dengan lapisan anti sidik jari. Termasuk spindle dan sekrup pemasangan untuk pintu standar 35–45 mm.",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Stainless steel 304"
+        },
+        {
+          "label": "Ketebalan pintu",
+          "value": "35 – 45 mm"
+        },
+        {
+          "label": "Roset",
+          "value": "Bulat 52 mm"
+        },
+        {
+          "label": "Isi paket",
+          "value": "Handle, spindle, sekrup"
+        }
+      ],
+      "tags": [
+        "handle",
+        "gagang",
+        "pintu",
+        "lever"
+      ],
+      "featured": true,
+      "image": "/images/products/pintu-jendela.svg"
+    },
+    {
+      "slug": "door-closer-hidrolik-65kg",
+      "name": "Door Closer Hidrolik 65 kg",
+      "category": "pintu-jendela",
+      "brand": "VULCAN",
+      "sku": "VLC-DC-65",
+      "unit": "unit",
+      "short": "Penutup pintu otomatis dengan dua katup pengatur kecepatan.",
+      "description": "Door closer hidrolik untuk pintu hingga 65 kg. Dilengkapi dua katup independen untuk mengatur kecepatan menutup dan latching. Body aluminium die-cast dengan finishing powder coating yang tahan lama.",
+      "specs": [
+        {
+          "label": "Kapasitas",
+          "value": "45 – 65 kg"
+        },
+        {
+          "label": "Lebar pintu",
+          "value": "Maks. 1100 mm"
+        },
+        {
+          "label": "Material",
+          "value": "Aluminium die-cast"
+        },
+        {
+          "label": "Garansi",
+          "value": "12 bulan"
+        }
+      ],
+      "tags": [
+        "door closer",
+        "pintu",
+        "hidrolik",
+        "otomatis"
+      ],
+      "image": "/images/products/pintu-jendela.svg"
+    },
+    {
+      "slug": "kunci-tanam-silinder-40mm",
+      "name": "Kunci Tanam Silinder 40 mm",
+      "category": "pintu-jendela",
+      "brand": "ANKA Pro",
+      "sku": "ANK-LK-440",
+      "unit": "set",
+      "short": "Kunci tanam dengan silinder kuningan dan 3 kunci cadangan.",
+      "description": "Set kunci tanam untuk pintu kayu dengan silinder kuningan presisi. Termasuk tiga kunci, roset, dan handle. Mekanisme anti-pick sederhana untuk keamanan hunian sehari-hari.",
+      "specs": [
+        {
+          "label": "Backset",
+          "value": "40 mm"
+        },
+        {
+          "label": "Material",
+          "value": "Zinc alloy + kuningan"
+        },
+        {
+          "label": "Jumlah kunci",
+          "value": "3 buah"
+        },
+        {
+          "label": "Finishing",
+          "value": "Matte black"
+        }
+      ],
+      "tags": [
+        "kunci",
+        "tanam",
+        "silinder",
+        "keamanan"
+      ],
+      "image": "/images/products/pintu-jendela.svg"
+    },
+    {
+      "slug": "roda-jendela-sliding-nylon",
+      "name": "Roda Jendela Sliding Nylon",
+      "category": "pintu-jendela",
+      "brand": "GRIPLINE",
+      "sku": "GRP-SW-018",
+      "unit": "pcs",
+      "short": "Roda jendela geser dengan bantalan nylon dan bearing baja.",
+      "description": "Roda jendela sliding dengan body nylon dan bearing baja untuk gerakan ringan dan senyap. Cocok untuk jendela aluminium maupun UPVC. Tersedia ukuran standar dengan penyetel ketinggian.",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Nylon + bearing baja"
+        },
+        {
+          "label": "Beban",
+          "value": "Hingga 25 kg / roda"
+        },
+        {
+          "label": "Diameter",
+          "value": "18 mm"
+        },
+        {
+          "label": "Penyesuaian",
+          "value": "Setel tinggi ±3 mm"
+        }
+      ],
+      "tags": [
+        "roda",
+        "jendela",
+        "sliding",
+        "nylon"
+      ],
+      "image": "/images/products/pintu-jendela.svg"
+    },
+    {
+      "slug": "handle-jendela-casement",
+      "name": "Handle Jendela Casement",
+      "category": "pintu-jendela",
+      "brand": "GRIPLINE",
+      "sku": "GRP-CS-052",
+      "unit": "pcs",
+      "short": "Gagang jendela casement dengan kunci pengunci tunggal.",
+      "description": "Handle jendela casement aluminium dengan mekanisme pengunci sederhana. Desain ramping dan finishing serasi untuk jendela proyek maupun renovasi.",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Aluminium alloy"
+        },
+        {
+          "label": "Jarak sekrup",
+          "value": "43 mm"
+        },
+        {
+          "label": "Warna",
+          "value": "Silver / hitam"
+        },
+        {
+          "label": "Arah",
+          "value": "Universal kiri-kanan"
+        }
+      ],
+      "tags": [
+        "handle",
+        "jendela",
+        "casement",
+        "aluminium"
+      ],
+      "image": "/images/products/pintu-jendela.svg"
+    },
+    {
+      "slug": "sekrup-gypsum-1-inci-1000pcs",
+      "name": "Sekrup Gypsum 1\" (1000 pcs)",
+      "category": "pengencang",
+      "brand": "FORGEWORKS",
+      "sku": "FGW-SG-1000",
+      "unit": "dus",
+      "short": "Sekrup gypsum black phosphate, kepala trompet, 1000 pcs per dus.",
+      "description": "Sekrup khusus papan gypsum dengan ulir halus dan kepala trompet yang rapi. Lapisan black phosphate mengurangi karat dan memudahkan pengeboran. Satu dus berisi 1000 buah.",
+      "specs": [
+        {
+          "label": "Ukuran",
+          "value": "1 inci (25 mm)"
+        },
+        {
+          "label": "Isi",
+          "value": "1000 pcs / dus"
+        },
+        {
+          "label": "Material",
+          "value": "Baja black phosphate"
+        },
+        {
+          "label": "Kepala",
+          "value": "Trompet #2"
+        }
+      ],
+      "tags": [
+        "sekrup",
+        "gypsum",
+        "drywall",
+        "pengencang"
+      ],
+      "featured": true,
+      "badge": "Hemat",
+      "image": "/images/products/pengencang.svg"
+    },
+    {
+      "slug": "baut-anchor-m10-x-100",
+      "name": "Baut Anchor M10 × 100",
+      "category": "pengencang",
+      "brand": "FORGEWORKS",
+      "sku": "FGW-WA-1010",
+      "unit": "pcs",
+      "short": "Anchor wedge untuk beton, galvanis, beban tarik tinggi.",
+      "description": "Baut anchor tipe wedge dengan ekspansi mekanis untuk pemasangan di beton. Lapisan galvanis memberi perlindungan tambahan pada area lembap. Cocok untuk bracket, railing, dan dudukan mesin.",
+      "specs": [
+        {
+          "label": "Diameter",
+          "value": "M10"
+        },
+        {
+          "label": "Panjang",
+          "value": "100 mm"
+        },
+        {
+          "label": "Material",
+          "value": "Baja karbon galvanis"
+        },
+        {
+          "label": "Beban tarik",
+          "value": "± 2,8 kN"
+        }
+      ],
+      "tags": [
+        "baut",
+        "anchor",
+        "beton",
+        "galvanis"
+      ],
+      "image": "/images/products/pengencang.svg"
+    },
+    {
+      "slug": "dynabolt-hex-m8-x-75",
+      "name": "Dynabolt Hex M8 × 75",
+      "category": "pengencang",
+      "brand": "ANKA Pro",
+      "sku": "ANK-DB-0875",
+      "unit": "pcs",
+      "short": "Dynabolt kepala hex untuk beton dan bata padat.",
+      "description": "Dynabolt dengan selongsong ekspansi dan kepala hex. Pemasangan cepat dengan kunci pas atau impact driver. Ideal untuk instalasi rangka, pipa, dan fixtures pada beton.",
+      "specs": [
+        {
+          "label": "Diameter",
+          "value": "M8"
+        },
+        {
+          "label": "Panjang",
+          "value": "75 mm"
+        },
+        {
+          "label": "Material",
+          "value": "Baja zinc plated"
+        },
+        {
+          "label": "Kepala",
+          "value": "Hex 13 mm"
+        }
+      ],
+      "tags": [
+        "dynabolt",
+        "baut",
+        "beton",
+        "hex"
+      ],
+      "image": "/images/products/pengencang.svg"
+    },
+    {
+      "slug": "sekrup-baja-ringan-12x20-500pcs",
+      "name": "Sekrup Baja Ringan 12×20 (500 pcs)",
+      "category": "pengencang",
+      "brand": "FORGEWORKS",
+      "sku": "FGW-BR-1220",
+      "unit": "dus",
+      "short": "Self-drilling screw untuk rangka baja ringan dan metal.",
+      "description": "Sekrup self-drilling dengan ujung bor dan sayap penjepit untuk sambungan baja ringan. Kepala pan head dengan washer EPDM opsional untuk area outdoor. Isi 500 buah per dus.",
+      "specs": [
+        {
+          "label": "Ukuran",
+          "value": "12 × 20 mm"
+        },
+        {
+          "label": "Isi",
+          "value": "500 pcs / dus"
+        },
+        {
+          "label": "Material",
+          "value": "Baja zinc"
+        },
+        {
+          "label": "Tipe",
+          "value": "Self-drilling"
+        }
+      ],
+      "tags": [
+        "sekrup",
+        "baja ringan",
+        "self drilling",
+        "metal"
+      ],
+      "image": "/images/products/pengencang.svg"
+    },
+    {
+      "slug": "mur-baut-hex-galvanis-m12",
+      "name": "Mur & Baut Hex Galvanis M12",
+      "category": "pengencang",
+      "brand": "FORGEWORKS",
+      "sku": "FGW-HB-1200",
+      "unit": "set",
+      "short": "Set mur-baut hex hot dip galvanis untuk struktur outdoor.",
+      "description": "Set mur dan baut kepala hex dengan lapisan hot dip galvanis yang tahan korosi. Digunakan untuk sambungan struktur ringan, rangka canopy, dan pagar.",
+      "specs": [
+        {
+          "label": "Diameter",
+          "value": "M12"
+        },
+        {
+          "label": "Panjang",
+          "value": "50 mm"
+        },
+        {
+          "label": "Lapisan",
+          "value": "Hot dip galvanis"
+        },
+        {
+          "label": "Kelas",
+          "value": "4.8"
+        }
+      ],
+      "tags": [
+        "mur",
+        "baut",
+        "galvanis",
+        "struktur"
+      ],
+      "image": "/images/products/pengencang.svg"
+    },
+    {
+      "slug": "rivet-blind-48mm-100pcs",
+      "name": "Rivet Blind 4.8 mm (100 pcs)",
+      "category": "pengencang",
+      "brand": "GRIPLINE",
+      "sku": "GRP-RV-4800",
+      "unit": "pack",
+      "short": "Rivet aluminium untuk plat, spandek, dan panel tipis.",
+      "description": "Rivet blind aluminium dengan mandrel baja untuk sambungan cepat pada plat tipis dan spandek. Tidak memerlukan akses ke kedua sisi material. Isi 100 buah.",
+      "specs": [
+        {
+          "label": "Diameter",
+          "value": "4.8 mm"
+        },
+        {
+          "label": "Grip range",
+          "value": "3 – 6 mm"
+        },
+        {
+          "label": "Material",
+          "value": "Aluminium"
+        },
+        {
+          "label": "Isi",
+          "value": "100 pcs / pack"
+        }
+      ],
+      "tags": [
+        "rivet",
+        "blind",
+        "aluminium",
+        "spandek"
+      ],
+      "image": "/images/products/pengencang.svg"
+    },
+    {
+      "slug": "sealant-silicone-netral-300ml",
+      "name": "Sealant Silicone Netral 300 ml",
+      "category": "sealant",
+      "brand": "SEALCORE",
+      "sku": "SLC-SN-300",
+      "unit": "tube",
+      "short": "Silicone netral serbaguna, elastis, untuk kaca dan aluminium.",
+      "description": "Sealant silicone netral dengan daya rekat tinggi pada kaca, aluminium, keramik, dan sebagian plastik. Tidak berbau asam sehingga aman untuk logam. Elastis dan tahan cuaca.",
+      "specs": [
+        {
+          "label": "Volume",
+          "value": "300 ml"
+        },
+        {
+          "label": "Tipe",
+          "value": "Netral (non-acetic)"
+        },
+        {
+          "label": "Waktu kering",
+          "value": "20 – 30 menit"
+        },
+        {
+          "label": "Warna",
+          "value": "Bening / putih / hitam"
+        }
+      ],
+      "tags": [
+        "sealant",
+        "silicone",
+        "kaca",
+        "aluminium"
+      ],
+      "featured": true,
+      "image": "/images/products/sealant.svg"
+    },
+    {
+      "slug": "sealant-pu-joint-600ml",
+      "name": "Sealant PU Joint 600 ml",
+      "category": "sealant",
+      "brand": "SEALCORE",
+      "sku": "SLC-PU-600",
+      "unit": "tube",
+      "short": "Polyurethane sealant untuk sambungan beton dan expansion joint.",
+      "description": "Sealant polyurethane dengan elongasi tinggi untuk sambungan beton, expansion joint, dan retakan struktur. Tetap elastis setelah kering dan dapat dicat.",
+      "specs": [
+        {
+          "label": "Volume",
+          "value": "600 ml"
+        },
+        {
+          "label": "Elongasi",
+          "value": "± 400%"
+        },
+        {
+          "label": "Waktu kering",
+          "value": "24 jam"
+        },
+        {
+          "label": "Aplikasi",
+          "value": "Beton, metal, kayu"
+        }
+      ],
+      "tags": [
+        "sealant",
+        "pu",
+        "beton",
+        "joint"
+      ],
+      "image": "/images/products/sealant.svg"
+    },
+    {
+      "slug": "lem-epoxy-2-komponen",
+      "name": "Lem Epoxy 2 Komponen",
+      "category": "sealant",
+      "brand": "SEALCORE",
+      "sku": "SLC-EP-050",
+      "unit": "set",
+      "short": "Epoxy struktural dua komponen dengan daya rekat sangat kuat.",
+      "description": "Lem epoxy dua komponen untuk sambungan logam, keramik, dan beton. Kekuatan geser tinggi setelah pengerasan penuh. Rasio campuran 1:1 dengan waktu kerja 30 menit.",
+      "specs": [
+        {
+          "label": "Berat",
+          "value": "50 g"
+        },
+        {
+          "label": "Rasio",
+          "value": "1 : 1"
+        },
+        {
+          "label": "Waktu kerja",
+          "value": "30 menit"
+        },
+        {
+          "label": "Kekuatan",
+          "value": "± 20 MPa"
+        }
+      ],
+      "tags": [
+        "lem",
+        "epoxy",
+        "perekat",
+        "struktural"
+      ],
+      "image": "/images/products/sealant.svg"
+    },
+    {
+      "slug": "foam-pu-expanding-750ml",
+      "name": "Foam PU Expanding 750 ml",
+      "category": "sealant",
+      "brand": "SEALCORE",
+      "sku": "SLC-FM-750",
+      "unit": "can",
+      "short": "Busa poliuretan pengisi celah, ekspansi tinggi, isolasi termal.",
+      "description": "Expanding foam PU untuk mengisi celah pada kusen, pipa, dan rongga dinding. Mengembang hingga 2–3 kali volume awal dan mengeras menjadi isolasi termal yang rapat.",
+      "specs": [
+        {
+          "label": "Volume",
+          "value": "750 ml"
+        },
+        {
+          "label": "Ekspansi",
+          "value": "2 – 3×"
+        },
+        {
+          "label": "Waktu kering",
+          "value": "± 60 menit"
+        },
+        {
+          "label": "Tipe",
+          "value": "Gun / straw"
+        }
+      ],
+      "tags": [
+        "foam",
+        "pu",
+        "isolasi",
+        "celah"
+      ],
+      "image": "/images/products/sealant.svg"
+    },
+    {
+      "slug": "waterproofing-coating-5kg",
+      "name": "Waterproofing Coating 5 kg",
+      "category": "sealant",
+      "brand": "SEALCORE",
+      "sku": "SLC-WC-005",
+      "unit": "pail",
+      "short": "Coating elastis pelindung atap beton dan dinding luar.",
+      "description": "Waterproofing coating berbasis akrilik elastis untuk atap beton, talang, dan dinding eksterior. Membentuk lapisan kedap air yang tahan sinar UV dan retak rambut.",
+      "specs": [
+        {
+          "label": "Berat",
+          "value": "5 kg"
+        },
+        {
+          "label": "Daya sebar",
+          "value": "± 5 m² / lapis"
+        },
+        {
+          "label": "Lapisan",
+          "value": "2 – 3 lapis"
+        },
+        {
+          "label": "Warna",
+          "value": "Abu / putih"
+        }
+      ],
+      "tags": [
+        "waterproofing",
+        "coating",
+        "atap",
+        "beton"
+      ],
+      "image": "/images/products/sealant.svg"
+    },
+    {
+      "slug": "double-tape-pe-foam-24mm",
+      "name": "Double Tape PE Foam 24 mm",
+      "category": "sealant",
+      "brand": "GRIPLINE",
+      "sku": "GRP-DT-2400",
+      "unit": "roll",
+      "short": "Double tape foam berperekat kuat untuk panel dan aluminium.",
+      "description": "Double tape PE foam dengan lem akrilik dua sisi. Cocok untuk pemasangan panel, trim, dan aksesoris ringan pada permukaan bersih. Tahan suhu dan kelembapan.",
+      "specs": [
+        {
+          "label": "Lebar",
+          "value": "24 mm"
+        },
+        {
+          "label": "Panjang",
+          "value": "4 m"
+        },
+        {
+          "label": "Ketebalan",
+          "value": "1 mm"
+        },
+        {
+          "label": "Perekat",
+          "value": "Akrilik 2 sisi"
+        }
+      ],
+      "tags": [
+        "double tape",
+        "foam",
+        "perekat",
+        "panel"
+      ],
+      "image": "/images/products/sealant.svg"
+    },
+    {
+      "slug": "bor-impact-13mm-800w",
+      "name": "Bor Impact 13 mm 800 W",
+      "category": "perkakas",
+      "brand": "FORGEWORKS",
+      "sku": "FGW-ID-800",
+      "unit": "unit",
+      "short": "Mesin bor impact 800 W dengan chuck 13 mm dan variable speed.",
+      "description": "Bor impact bertenaga 800 W untuk pekerjaan kayu, logam, dan beton ringan. Dilengkapi chuck 13 mm, variable speed, dan handle samping. Cocok untuk penggunaan harian di proyek.",
+      "specs": [
+        {
+          "label": "Daya",
+          "value": "800 W"
+        },
+        {
+          "label": "Chuck",
+          "value": "13 mm keyless"
+        },
+        {
+          "label": "Kecepatan",
+          "value": "0 – 3.000 rpm"
+        },
+        {
+          "label": "Garansi",
+          "value": "12 bulan"
+        }
+      ],
+      "tags": [
+        "bor",
+        "impact",
+        "power tool",
+        "perkakas"
+      ],
+      "featured": true,
+      "image": "/images/products/perkakas.svg"
+    },
+    {
+      "slug": "gerinda-tangan-4-inci-720w",
+      "name": "Gerinda Tangan 4\" 720 W",
+      "category": "perkakas",
+      "brand": "FORGEWORKS",
+      "sku": "FGW-AG-720",
+      "unit": "unit",
+      "short": "Gerinda 720 W dengan pelindung dan handle anti-slip.",
+      "description": "Gerinda tangan 4 inci untuk pemotongan dan penggerindaan logam. Body ringkas, pelindung yang dapat disetel, dan handle samping anti-slip untuk kontrol lebih baik.",
+      "specs": [
+        {
+          "label": "Daya",
+          "value": "720 W"
+        },
+        {
+          "label": "Batu",
+          "value": "100 mm"
+        },
+        {
+          "label": "Kecepatan",
+          "value": "11.000 rpm"
+        },
+        {
+          "label": "Garansi",
+          "value": "12 bulan"
+        }
+      ],
+      "tags": [
+        "gerinda",
+        "cutting",
+        "power tool",
+        "logam"
+      ],
+      "image": "/images/products/perkakas.svg"
+    },
+    {
+      "slug": "meteran-laser-40m",
+      "name": "Meteran Laser 40 m",
+      "category": "perkakas",
+      "brand": "ANKA Pro",
+      "sku": "ANK-LM-040",
+      "unit": "unit",
+      "short": "Pengukur laser presisi ±2 mm dengan mode luas dan volume.",
+      "description": "Meteran laser dengan jangkauan 40 meter dan akurasi ±2 mm. Mendukung pengukuran jarak, luas, volume, dan Pythagoras. Layar backlight dan penyimpanan 20 riwayat.",
+      "specs": [
+        {
+          "label": "Jangkauan",
+          "value": "0,05 – 40 m"
+        },
+        {
+          "label": "Akurasi",
+          "value": "± 2 mm"
+        },
+        {
+          "label": "Baterai",
+          "value": "2 × AAA"
+        },
+        {
+          "label": "Fitur",
+          "value": "Luas, volume, Pythagoras"
+        }
+      ],
+      "tags": [
+        "meteran",
+        "laser",
+        "ukur",
+        "presisi"
+      ],
+      "image": "/images/products/perkakas.svg"
+    },
+    {
+      "slug": "kunci-sok-set-24-pcs",
+      "name": "Kunci Sok Set 24 pcs",
+      "category": "perkakas",
+      "brand": "FORGEWORKS",
+      "sku": "FGW-SK-024",
+      "unit": "set",
+      "short": "Set kunci sok 1/2 inci dengan ratchet dan extension bar.",
+      "description": "Set kunci sok 24 bagian berbahan chrome vanadium. Termasuk ratchet 72 gigi, extension bar, dan kunci busi. Dikemas dalam case plastik keras yang rapi.",
+      "specs": [
+        {
+          "label": "Drive",
+          "value": "1/2 inci"
+        },
+        {
+          "label": "Isi",
+          "value": "24 pcs"
+        },
+        {
+          "label": "Material",
+          "value": "Chrome vanadium"
+        },
+        {
+          "label": "Ratchet",
+          "value": "72 gigi"
+        }
+      ],
+      "tags": [
+        "kunci sok",
+        "tool set",
+        "ratchet",
+        "perkakas"
+      ],
+      "image": "/images/products/perkakas.svg"
+    },
+    {
+      "slug": "railing-tangga-stainless-1m",
+      "name": "Railing Tangga Stainless 1 m",
+      "category": "railing",
+      "brand": "ANKA Pro",
+      "sku": "ANK-RL-100",
+      "unit": "meter",
+      "short": "Railing tangga stainless 304 dengan kaca tempered opsional.",
+      "description": "Sistem railing tangga stainless steel 304 dengan desain minimalis. Dapat dipadukan dengan panel kaca tempered atau kawat. Diproduksi sesuai ukuran dan sudut tangga proyek.",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Stainless steel 304"
+        },
+        {
+          "label": "Diameter pipa",
+          "value": "50,8 mm"
+        },
+        {
+          "label": "Tinggi",
+          "value": "900 – 1000 mm"
+        },
+        {
+          "label": "Finishing",
+          "value": "Hairline / mirror"
+        }
+      ],
+      "tags": [
+        "railing",
+        "tangga",
+        "stainless",
+        "handrail"
+      ],
+      "featured": true,
+      "image": "/images/products/railing.svg"
+    },
+    {
+      "slug": "bracket-kaca-304",
+      "name": "Bracket Kaca 304",
+      "category": "railing",
+      "brand": "ANKA Pro",
+      "sku": "ANK-BK-304",
+      "unit": "pcs",
+      "short": "Bracket penjepit kaca stainless untuk railing dan kanopi.",
+      "description": "Bracket kaca stainless 304 untuk penjepit panel tempered pada railing, kanopi, dan partisi. Dilengkapi baut penjepit dan gasket karet pelindung kaca.",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Stainless steel 304"
+        },
+        {
+          "label": "Ketebalan kaca",
+          "value": "8 – 12 mm"
+        },
+        {
+          "label": "Model",
+          "value": "Clamp / spigot"
+        },
+        {
+          "label": "Isi",
+          "value": "1 bracket + gasket"
+        }
+      ],
+      "tags": [
+        "bracket",
+        "kaca",
+        "railing",
+        "stainless"
+      ],
+      "image": "/images/products/railing.svg"
+    },
+    {
+      "slug": "handrail-kayu-4cm",
+      "name": "Handrail Kayu 4 cm",
+      "category": "railing",
+      "brand": "ANKA Pro",
+      "sku": "ANK-HR-040",
+      "unit": "meter",
+      "short": "Handrail kayu solid finishing halus untuk tangga interior.",
+      "description": "Handrail kayu solid dengan profil bulat 4 cm dan finishing halus. Memberi sentuhan hangat pada tangga interior. Tersedia beberapa pilihan warna kayu.",
+      "specs": [
+        {
+          "label": "Diameter",
+          "value": "40 mm"
+        },
+        {
+          "label": "Material",
+          "value": "Kayu solid"
+        },
+        {
+          "label": "Panjang",
+          "value": "Per meter"
+        },
+        {
+          "label": "Finishing",
+          "value": "Clear coat"
+        }
+      ],
+      "tags": [
+        "handrail",
+        "kayu",
+        "tangga",
+        "interior"
+      ],
+      "image": "/images/products/railing.svg"
+    },
+    {
+      "slug": "tangga-aluminium-2m",
+      "name": "Tangga Aluminium 2 m",
+      "category": "railing",
+      "brand": "FORGEWORKS",
+      "sku": "FGW-LD-200",
+      "unit": "unit",
+      "short": "Tangga aluminium lipat ringan dengan kaki anti-slip.",
+      "description": "Tangga aluminium 2 meter dengan konstruksi ringan namun kokoh. Kaki anti-slip dan kunci lipat pengaman. Mudah disimpan dan dibawa ke lokasi proyek.",
+      "specs": [
+        {
+          "label": "Tinggi",
+          "value": "2 m"
+        },
+        {
+          "label": "Material",
+          "value": "Aluminium"
+        },
+        {
+          "label": "Beban",
+          "value": "150 kg"
+        },
+        {
+          "label": "Berat",
+          "value": "± 6 kg"
+        }
+      ],
+      "tags": [
+        "tangga",
+        "aluminium",
+        "lipat",
+        "akses"
+      ],
+      "image": "/images/products/railing.svg"
+    },
+    {
+      "slug": "helm-proyek-sni",
+      "name": "Helm Proyek SNI",
+      "category": "safety",
+      "brand": "SAFETEX",
+      "sku": "SFX-HM-001",
+      "unit": "pcs",
+      "short": "Helm keselamatan standar SNI dengan harness 4 titik.",
+      "description": "Helm proyek sesuai standar SNI dengan shell HDPE dan harness 4 titik yang dapat disetel. Tersedia beberapa warna untuk identifikasi divisi. Cocok untuk proyek konstruksi dan industri.",
+      "specs": [
+        {
+          "label": "Standar",
+          "value": "SNI"
+        },
+        {
+          "label": "Material",
+          "value": "HDPE"
+        },
+        {
+          "label": "Harness",
+          "value": "4 titik"
+        },
+        {
+          "label": "Berat",
+          "value": "± 350 g"
+        }
+      ],
+      "tags": [
+        "helm",
+        "safety",
+        "SNI",
+        "proyek"
+      ],
+      "featured": true,
+      "badge": "SNI",
+      "image": "/images/products/safety.svg"
+    },
+    {
+      "slug": "rompi-safety-reflektif",
+      "name": "Rompi Safety Reflektif",
+      "category": "safety",
+      "brand": "SAFETEX",
+      "sku": "SFX-VS-002",
+      "unit": "pcs",
+      "short": "Rompi reflektif visibilitas tinggi dengan tali pengatur.",
+      "description": "Rompi safety dengan pita reflektif lebar dan bahan mesh breathable. Membantu visibilitas di area kerja malam maupun siang. Ukuran universal dengan tali pengatur.",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Polyester mesh"
+        },
+        {
+          "label": "Reflektor",
+          "value": "2 pita horizontal"
+        },
+        {
+          "label": "Ukuran",
+          "value": "Universal"
+        },
+        {
+          "label": "Warna",
+          "value": "Hijau / oranye"
+        }
+      ],
+      "tags": [
+        "rompi",
+        "safety",
+        "reflektif",
+        "proyek"
+      ],
+      "image": "/images/products/safety.svg"
+    },
+    {
+      "slug": "sarung-tangan-nitrile-12-pasang",
+      "name": "Sarung Tangan Nitrile (12 pasang)",
+      "category": "safety",
+      "brand": "SAFETEX",
+      "sku": "SFX-GL-012",
+      "unit": "pack",
+      "short": "Sarung tangan nitrile grip bertekstur, isi 12 pasang.",
+      "description": "Sarung tangan nitrile dengan lapisan grip bertekstur untuk cengkeraman lebih baik. Ringan, lentur, dan tahan terhadap oli ringan. Satu pack berisi 12 pasang.",
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Nitrile coated"
+        },
+        {
+          "label": "Isi",
+          "value": "12 pasang"
+        },
+        {
+          "label": "Ukuran",
+          "value": "M / L / XL"
+        },
+        {
+          "label": "Warna",
+          "value": "Abu / hitam"
+        }
+      ],
+      "tags": [
+        "sarung tangan",
+        "safety",
+        "nitrile",
+        "grip"
+      ],
+      "image": "/images/products/safety.svg"
+    },
+    {
+      "slug": "kacamata-safety-anti-uv",
+      "name": "Kacamata Safety Anti-UV",
+      "category": "safety",
+      "brand": "SAFETEX",
+      "sku": "SFX-EG-003",
+      "unit": "pcs",
+      "short": "Kacamata safety lensa anti-UV dengan frame ringan.",
+      "description": "Kacamata safety dengan lensa polycarbonate anti-UV dan anti-gores. Frame ringan dengan karet hidung yang nyaman untuk pemakaian lama. Melindungi dari serpihan dan debu.",
+      "specs": [
+        {
+          "label": "Lensa",
+          "value": "Polycarbonate"
+        },
+        {
+          "label": "Proteksi",
+          "value": "Anti-UV, anti-scratch"
+        },
+        {
+          "label": "Berat",
+          "value": "± 25 g"
+        },
+        {
+          "label": "Standar",
+          "value": "EN 166"
+        }
+      ],
+      "tags": [
+        "kacamata",
+        "safety",
+        "anti uv",
+        "proteksi"
+      ],
+      "image": "/images/products/safety.svg"
+    }
+  ],
+  "updatedAt": "2026-11-15T06:50:20.743Z",
+  "articleCategories": [
+    {
+      "slug": "berita",
+      "name": "Berita",
+      "blurb": "Kabar terbaru dari ANKA dan industri konstruksi."
+    },
+    {
+      "slug": "tips",
+      "name": "Tips & Panduan",
+      "blurb": "Tips memilih dan merawat aksesoris konstruksi."
+    },
+    {
+      "slug": "proyek",
+      "name": "Proyek",
+      "blurb": "Dokumentasi proyek yang didukung ANKA."
+    }
+  ],
+  "articles": [
+    {
+      "slug": "insulasi-panas-dengan-foil-metalizing",
+      "title": "Insulasi Panas dengan Foil Metalizing",
+      "excerpt": "Cara kerja bubble foil dan woven foil dalam menahan panas atap.",
+      "content": "# Insulasi Panas dengan Foil Metalizing\n\nFoil metalizing membantu memantulkan panas radiasi dari atap.\n\n## Jenis\n\n- **Bubble foil** — ringan, cocok untuk atap rumah\n- **Woven foil double side** — refleksi maksimal\n- **Woven foil single side** — ekonomis\n\nPasang dengan sisi metalizing menghadap sumber panas.",
+      "coverImage": "/images/products/insulasi.svg",
+      "category": "tips",
+      "tags": [
+        "insulasi",
+        "foil",
+        "metalizing"
+      ],
+      "author": "Tim ANKA",
+      "status": "published",
+      "featured": false,
+      "publishedAt": "2026-11-15T06:50:20.743Z",
+      "updatedAt": "2026-11-15T06:50:20.743Z"
+    },
+    {
+      "slug": "anka-dynabolt-untuk-anchor-beton",
+      "title": "ANKA Dynabolt untuk Anchor Beton yang Kuat",
+      "excerpt": "Keunggulan dynabolt ANKA untuk pemasangan pada beton dan bata.",
+      "content": "# ANKA Dynabolt\n\nDynabolt adalah solusi anchor yang kuat untuk pemasangan pada beton dan bata.\n\n## Keunggulan\n\n- Material baja berkualitas\n- Tersedia M8, M10, M12\n- Mudah dipasang\n\nCocok untuk rak, bracket, dan konstruksi ringan hingga menengah.",
+      "coverImage": "/images/products/pengencang.svg",
+      "category": "berita",
+      "tags": [
+        "dynabolt",
+        "anchor",
+        "anka"
+      ],
+      "author": "Tim ANKA",
+      "status": "published",
+      "featured": true,
+      "publishedAt": "2026-11-15T06:50:20.743Z",
+      "updatedAt": "2026-11-15T06:50:20.743Z"
+    },
+    {
+      "slug": "memilih-sealant-yang-tepat",
+      "title": "Memilih Sealant yang Tepat untuk Proyek Anda",
+      "excerpt": "Perbedaan sealant acetic dan neutral cure, serta kapan menggunakan masing-masing.",
+      "content": "# Memilih Sealant yang Tepat\n\nSealant adalah komponen penting dalam finishing konstruksi. Dua jenis utama yang sering digunakan adalah **acetic cure** dan **neutral cure**.\n\n## Acetic Cure\n\n- Cepat kering\n- Cocok untuk kaca, keramik, dan logam\n- Tidak disarankan untuk beton\n\n## Neutral Cure\n\n- Aman untuk beton dan material sensitif\n- Waktu kering lebih lama\n- Lebih elastis\n\nPilih sesuai permukaan dan kondisi proyek Anda.",
+      "coverImage": "/images/products/sealant.svg",
+      "category": "tips",
+      "tags": [
+        "sealant",
+        "tips",
+        "konstruksi"
+      ],
+      "author": "Tim ANKA",
+      "status": "published",
+      "featured": true,
+      "publishedAt": "2026-11-15T06:50:20.743Z",
+      "updatedAt": "2026-11-15T06:50:20.743Z"
+    }
+  ],
+  "auditLog": []
+}
