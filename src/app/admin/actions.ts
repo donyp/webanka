@@ -99,7 +99,9 @@ async function saveUpload(file: File, slug: string) {
   const safeExt = [".jpg", ".jpeg", ".png", ".webp", ".gif"].includes(ext)
     ? ext
     : ".jpg";
-  const dir = path.join(process.cwd(), "public", "uploads", "products");
+  const dir = process.env.ANKA_UPLOADS_DIR
+    ? path.resolve(process.env.ANKA_UPLOADS_DIR)
+    : path.join(process.cwd(), "public", "uploads", "products");
   await mkdir(dir, { recursive: true });
   const filename = slug + "-" + Date.now() + safeExt;
   const buffer = Buffer.from(await file.arrayBuffer());

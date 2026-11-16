@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
+import { SITE_URL } from "@/lib/site-url";
 import { readContent } from "@/lib/store";
 
-const base = "https://anka.co.id";
+const base = SITE_URL;
 
 export async function GET() {
   const content = await readContent();

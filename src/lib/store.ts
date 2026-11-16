@@ -4,10 +4,13 @@ import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
 import path from "node:path";
 import type { Content } from "@/data/types";
 
-const DATA_DIR =
-  process.env.ANKA_DATA_DIR ?? path.join(process.cwd(), "data");
+const DATA_DIR = process.env.ANKA_DATA_DIR
+  ? path.resolve(process.env.ANKA_DATA_DIR)
+  : path.join(process.cwd(), "data");
 const CONTENT_FILE = path.join(DATA_DIR, "content.json");
-const SEED_FILE = path.join(DATA_DIR, "content.seed.json");
+const SEED_FILE = process.env.ANKA_SEED_FILE
+  ? path.resolve(process.env.ANKA_SEED_FILE)
+  : path.join(process.cwd(), "data", "content.seed.json");
 
 async function ensureStore(): Promise<string> {
   try {

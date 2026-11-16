@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL } from "@/lib/site-url";
 import { readContent } from "@/lib/store";
 
-const base = "https://anka.co.id";
+const base = SITE_URL;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const content = await readContent();

@@ -3,6 +3,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { WhatsAppButton } from "@/components/whatsapp-button";
 import { getContent } from "@/lib/content";
 import { deriveSite } from "@/data/types";
+import { SITE_URL } from "@/lib/site-url";
 
 // Content is editable from /admin, so public pages render against the store
 // at request time instead of being frozen at build time.
@@ -20,7 +21,7 @@ export default async function SiteLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     name: site.legalName,
-    url: "https://anka.co.id",
+    url: SITE_URL,
     description: site.description,
     telephone: site.phone,
     email: site.email,

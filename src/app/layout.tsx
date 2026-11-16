@@ -4,6 +4,7 @@ import {
   Manrope,
   Space_Grotesk,
 } from "next/font/google";
+import { SITE_URL } from "@/lib/site-url";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -27,7 +28,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://anka.co.id"),
+  metadataBase: new URL(SITE_URL),
   manifest: "/manifest.json",
   title: {
     default: "ANKA — Supplier & Distributor Aksesoris Konstruksi",

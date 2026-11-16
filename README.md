@@ -17,7 +17,7 @@ Rancangan lengkap dan alasan tech stack ada di [`DESIGN.md`](./DESIGN.md).
 - **Tailwind CSS v4** — design token di `src/app/globals.css`
 - **next/font** — Space Grotesk, Manrope, Instrument Serif
 - Ikon SVG kustom (tanpa dependensi ikon eksternal)
-- Deploy: Vercel / Node.js
+- Deploy: Railway / Vercel / Node.js
 
 ## Menjalankan
 
@@ -30,6 +30,29 @@ npm start          # jalankan hasil build
 
 > Catatan: jika `next` tidak dikenali setelah clone, jalankan `npm install`
 > sampai selesai — native binary SWC harus terunduh.
+
+## Deploy ke Railway
+
+Project sudah menyertakan `railway.json`, jadi Railway bisa memakai Nixpacks:
+
+1. Buat project baru di Railway → **Deploy from GitHub repo**.
+2. Pilih repo `donyp/webanka`.
+3. Tambahkan environment variables:
+   - `ADMIN_PASSWORD` — password panel admin.
+   - `ADMIN_SECRET` — string acak panjang untuk tanda tangan sesi.
+   - `NEXT_PUBLIC_SITE_URL` — URL publik Railway/custom domain, mis. `https://webanka-production.up.railway.app`.
+   - `ANKA_DATA_DIR=/app/storage/data`
+   - `ANKA_UPLOADS_DIR=/app/storage/uploads/products`
+4. Tambahkan **Volume** dan mount ke `/app/storage`.
+5. Deploy. Start command: `npm run start`.
+
+Dengan volume tersebut, perubahan dari panel admin (`data/content.json`) dan
+foto upload tetap tersimpan saat redeploy. Saat pertama kali jalan, file
+`data/content.seed.json` dari repo dipakai untuk membuat `content.json` di
+volume secara otomatis.
+
+Tanpa volume, container Railway bersifat sementara: perubahan admin akan hilang
+setelah redeploy/restart.
 
 ## Struktur
 
@@ -84,7 +107,6 @@ Gunakan panel admin di `/admin/produk/baru`, atau edit langsung `data/content.js
   brand: "Merek",
   sku: "SKU-001",
   unit: "pcs",
-  price: 25000,               // null = "Hubungi kami"
   short: "Ringkasan singkat.",
   description: "Deskripsi lengkap.",
   specs: [{ label: "Material", value: "Baja" }],
