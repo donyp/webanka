@@ -24,6 +24,7 @@ export type Product = {
   featured?: boolean;
   badge?: string;
   image?: string;
+  dimensionImage?: string;
   catalogUrl?: string;
 };
 

@@ -182,8 +182,11 @@ async function readProduct(form: FormData): Promise<Product> {
   const price = text(form, "price").replace(/[^\\d]/g, "");
   const slug = slugOrName(form);
   const uploaded = await saveUpload(form.get("image") as File, slug);
+  const uploadedDimension = await saveUpload(form.get("dimensionImage") as File, slug);
   const currentImage = text(form, "imageCurrent") || undefined;
+  const currentDimensionImage = text(form, "dimensionImageCurrent") || undefined;
   const removeImage = form.get("removeImage") === "on";
+  const removeDimensionImage = form.get("removeDimensionImage") === "on";
 
   return {
     slug,
@@ -200,6 +203,8 @@ async function readProduct(form: FormData): Promise<Product> {
     featured: form.get("featured") === "on",
     badge: text(form, "badge") || undefined,
     image: uploaded ?? (removeImage ? undefined : currentImage),
+    dimensionImage:
+      uploadedDimension ?? (removeDimensionImage ? undefined : currentDimensionImage),
     catalogUrl: text(form, "catalogUrl") || undefined,
   };
 }

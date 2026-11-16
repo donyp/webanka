@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ProductCard } from "@/components/product-card";
 import { ProductVisual } from "@/components/product-visual";
+import { SizeVisual } from "@/components/size-visual";
 import {
   ArrowLeft,
   ArrowUpRight,
@@ -293,6 +294,40 @@ export default async function ProductPage({
                 </dd>
               </div>
             </dl>
+          </div>
+        </div>
+      </section>
+
+      {/* Visual ukuran */}
+      <section className="border-y border-line bg-paper-2/40">
+        <div className="shell grid gap-10 py-14 lg:grid-cols-2 lg:py-20">
+          <div>
+            <p className="eyebrow text-muted">Visual ukuran</p>
+            <h2 className="mt-4 font-display text-2xl font-semibold tracking-tight text-ink">
+              Ukuran produk
+            </h2>
+            <p className="mt-5 text-[0.98rem] leading-[1.8] text-muted">
+              Ilustrasi proporsi dan foto ukuran asli (jika tersedia) untuk membantu
+              membayangkan ukuran produk sebelum memesan.
+            </p>
+            {product.dimensionImage && (
+              <div className="mt-6 overflow-hidden border border-line bg-paper">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={product.dimensionImage}
+                  alt={`Foto ukuran ${product.name}`}
+                  className="h-auto w-full object-contain"
+                />
+                <p className="border-t border-line px-4 py-2 text-xs text-muted">
+                  Foto ukuran asli (dengan skala/penggaris).
+                </p>
+              </div>
+            )}
+          </div>
+          <div className="flex items-center">
+            <div className="w-full">
+              <SizeVisual product={product} />
+            </div>
           </div>
         </div>
       </section>

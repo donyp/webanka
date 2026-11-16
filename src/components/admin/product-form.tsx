@@ -178,6 +178,50 @@ export function ProductForm({
             </div>
           )}
 
+          <input type="hidden" name="dimensionImageCurrent" value={product?.dimensionImage ?? ""} />
+
+          <Field
+            label="Foto ukuran / skala (opsional)"
+            htmlFor="dimensionImage"
+            hint="Foto produk dengan penggaris/skala untuk menunjukkan ukuran asli. JPG/PNG/WebP."
+            className="sm:col-span-2"
+          >
+            <input
+              id="dimensionImage"
+              name="dimensionImage"
+              type="file"
+              accept="image/*"
+              className="block w-full text-sm text-muted file:mr-3 file:rounded-full file:border-0 file:bg-ink file:px-4 file:py-2 file:text-sm file:font-semibold file:text-paper hover:file:bg-accent"
+            />
+          </Field>
+
+          {product?.dimensionImage && (
+            <label className="flex items-center gap-3 text-sm text-ink sm:col-span-2">
+              <input
+                type="checkbox"
+                name="removeDimensionImage"
+                className="size-4 accent-[var(--color-accent)]"
+              />
+              Hapus foto ukuran saat ini
+            </label>
+          )}
+
+          {product?.dimensionImage && (
+            <div className="sm:col-span-2">
+              <p className="mb-2 text-[0.62rem] font-semibold uppercase tracking-[0.14em] text-muted">
+                Foto ukuran saat ini
+              </p>
+              <div className="relative h-32 w-32 overflow-hidden border border-line bg-paper-2">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={product.dimensionImage}
+                  alt={`Ukuran ${product.name}`}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            </div>
+          )}
+
           <Field
             label="Link katalog / brosur"
             htmlFor="catalogUrl"
