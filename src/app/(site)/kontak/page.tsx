@@ -119,36 +119,28 @@ export default async function ContactPage() {
               })}
             </div>
 
-            {/* Stylized map */}
-            <a
-              href={site.mapsHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative mt-6 flex h-56 items-center justify-center overflow-hidden border border-line bg-ink text-paper"
-            >
-              <div className="blueprint absolute inset-0 opacity-40" />
-              <div className="absolute inset-0 opacity-20 [background-image:repeating-linear-gradient(45deg,transparent,transparent_18px,var(--color-paper)_18px,var(--color-paper)_19px)]" />
-
-              <span className="absolute top-4 left-4 eyebrow text-paper/50">
-                Bekasi · Jawa Barat
-              </span>
-
-              <div className="relative flex flex-col items-center">
-                <span className="relative flex size-12 items-center justify-center">
-                  <span className="absolute inline-flex size-12 animate-ping rounded-full bg-accent/40" />
-                  <span className="relative flex size-10 items-center justify-center rounded-full bg-accent text-white">
-                    <MapPin className="size-5" />
-                  </span>
-                </span>
-                <span className="mt-3 font-display text-sm font-semibold">
-                  ANKA — Aneka Aksesoris
-                </span>
-                <span className="mt-1 flex items-center gap-1 text-[0.62rem] font-semibold uppercase tracking-[0.12em] text-paper/50 transition-colors group-hover:text-accent">
+            {/* Embedded map */}
+            <div className="mt-6 overflow-hidden border border-line bg-paper">
+              <iframe
+                title="Lokasi ANKA di Google Maps"
+                src={`https://www.google.com/maps?q=${encodeURIComponent(site.mapQuery || site.address)}&z=16&output=embed`}
+                className="h-64 w-full border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+              <a
+                href={site.mapsHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between gap-3 border-t border-line px-4 py-3 text-sm font-semibold text-ink transition-colors hover:bg-paper-2"
+              >
+                <span className="flex items-center gap-2">
+                  <MapPin className="size-4 text-accent" />
                   Buka di Google Maps
-                  <ArrowUpRight className="size-3" />
                 </span>
-              </div>
-            </a>
+                <ArrowUpRight className="size-4 text-muted" />
+              </a>
+            </div>
 
             <a
               href={site.whatsappHref}
