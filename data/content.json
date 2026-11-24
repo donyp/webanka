@@ -16,19 +16,19 @@
     "adminEmail": ""
   },
   "hero": {
-    "eyebrow": "Supplier & Distributor",
-    "headline": "Presisi di setiap",
-    "accent": "sambungan.",
-    "subcopy": "Aksesoris konstruksi yang tepat, stok yang jelas, dan pengiriman yang tidak menahan proyek. Dari engsel pintu sampai anchor beton — satu pemasok untuk semuanya.",
+    "eyebrow": "Katalog Produk",
+    "headline": "Temukan produk",
+    "accent": "yang tepat.",
+    "subcopy": "Katalog aksesoris konstruksi yang lengkap: hardware pintu & jendela, pengencang, sealant, perkakas, railing, dan safety. Lengkap dengan spesifikasi, panduan awam, dan visual ukuran.",
     "primaryLabel": "Jelajahi Katalog",
     "primaryHref": "/katalog",
-    "secondaryLabel": "Minta Penawaran",
-    "secondaryHref": "/kontak",
+    "secondaryLabel": "Baca Artikel",
+    "secondaryHref": "/artikel",
     "badge": "Stok siap kirim",
     "points": [
-      "Harga distributor",
-      "Kirim Jabodetabek",
-      "Respon 24 jam"
+      "480+ SKU aktif",
+      "Spesifikasi lengkap",
+      "Panduan awam"
     ],
     "marquee": [
       "Hardware Pintu",
@@ -37,7 +37,7 @@
       "Power Tools",
       "Railing",
       "Safety",
-      "Distribusi Proyek",
+      "Artikel Teknis",
       "Stok Siap Kirim"
     ]
   },
@@ -51,24 +51,16 @@
       "href": "/katalog"
     },
     {
-      "label": "Layanan",
-      "href": "/layanan"
-    },
-    {
-      "label": "Tentang",
-      "href": "/tentang"
-    },
-    {
-      "label": "Kontak",
-      "href": "/kontak"
-    },
-    {
       "label": "Artikel",
       "href": "/artikel"
     },
     {
       "label": "Cari",
       "href": "/cari"
+    },
+    {
+      "label": "Kontak",
+      "href": "/kontak"
     }
   ],
   "stats": [
