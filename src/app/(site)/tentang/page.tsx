@@ -109,7 +109,7 @@ export default async function AboutPage() {
                 href="/katalog"
                 className="group inline-flex items-center gap-2.5 rounded-full bg-ink px-6 py-3.5 text-sm font-semibold text-paper transition-colors hover:bg-accent"
               >
-                Lihat katalog
+                Lihat produk
                 <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
               </Link>
               <a
@@ -468,7 +468,7 @@ export default async function AboutPage() {
               href="/katalog"
               className="inline-flex items-center gap-2.5 rounded-full border border-paper/30 px-6 py-3.5 text-sm font-semibold text-paper transition-colors hover:border-paper hover:bg-paper hover:text-ink"
             >
-              Lihat katalog
+              Lihat produk
               <ArrowUpRight className="size-4" />
             </Link>
           </div>

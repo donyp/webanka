@@ -8,7 +8,7 @@ import { deriveSite } from "@/data/types";
 export const metadata: Metadata = {
   title: "Katalog Produk",
   description:
-    "Jelajahi katalog aksesoris konstruksi ANKA: hardware pintu, pengencang, sealant, perkakas, railing, dan perlengkapan safety.",
+    "Jelajahi produk aksesoris konstruksi ANKA: hardware pintu, pengencang, sealant, perkakas, railing, dan perlengkapan safety.",
 };
 
 // The category filter is read from the URL, so this route may block briefly.

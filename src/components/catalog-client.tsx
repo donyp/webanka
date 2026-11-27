@@ -195,7 +195,7 @@ export function CatalogClient({
             </h2>
             <p className="mt-2 max-w-sm text-sm text-muted">
               Coba kata kunci lain, atau bersihkan filter untuk melihat seluruh
-              katalog.
+              produk.
             </p>
             {hasFilter && (
               <button

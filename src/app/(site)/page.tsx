@@ -3,6 +3,7 @@ import { Marquee } from "@/components/marquee";
 import { Reveal } from "@/components/reveal";
 import { SectionHeading } from "@/components/section-heading";
 import { ProductCard } from "@/components/product-card";
+import { ProductVisual } from "@/components/product-visual";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -95,41 +96,44 @@ export default async function HomePage() {
               <div className="border border-ink bg-paper p-2.5 shadow-[6px_6px_0_0_var(--color-ink)] sm:shadow-[10px_10px_0_0_var(--color-ink)]">
                 <div className="blueprint relative bg-paper-2 p-3">
                   <div className="flex items-center justify-between border-b border-line pb-3">
-                    <span className="eyebrow text-ink">Katalog / Indeks</span>
+                    <span className="eyebrow text-ink">Produk / Unggulan</span>
                     <span className="font-display text-[0.6rem] font-semibold uppercase tracking-[0.18em] text-muted">
                       {products.length}+ SKU
                     </span>
                   </div>
 
                   <div className="mt-3 grid grid-cols-2 gap-2.5">
-                    {categories.slice(0, 4).map((cat, i) => (
-                      <Link
-                        key={cat.slug}
-                        href={`/katalog?kategori=${cat.slug}`}
-                        className="group relative flex aspect-4/3 flex-col justify-between overflow-hidden p-3 transition-transform duration-300 hover:-translate-y-0.5"
-                        style={{ backgroundColor: cat.tint, color: cat.ink }}
-                      >
-                        <div className="flex items-start justify-between">
-                          <CategoryIcon
-                            name={cat.icon}
-                            className="size-8 sm:size-10"
-                            strokeWidth={1.2}
-                          />
-                          <span className="font-display text-[0.6rem] font-semibold opacity-50">
-                            0{i + 1}
-                          </span>
-                        </div>
-                        <div>
-                          <p className="font-display text-[0.78rem] font-semibold leading-tight tracking-tight sm:text-sm">
-                            {cat.name}
-                          </p>
-                          <span className="mt-1 flex items-center gap-1 text-[0.58rem] font-semibold uppercase tracking-[0.12em] opacity-60">
-                            Lihat
-                            <ArrowUpRight className="size-3" />
-                          </span>
-                        </div>
-                      </Link>
-                    ))}
+                    {featuredProducts.slice(0, 4).map((product, i) => {
+                      const category =
+                        categoryBySlug.get(product.category) ?? categories[0];
+                      return (
+                        <Link
+                          key={product.slug}
+                          href={`/katalog/${product.slug}`}
+                          className="group relative aspect-4/3 overflow-hidden border border-line bg-paper-2 transition-transform duration-300 hover:-translate-y-0.5"
+                        >
+                          {product.image ? (
+                            <img
+                              src={product.image}
+                              alt={product.name}
+                              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                              loading="lazy"
+                            />
+                          ) : (
+                            <ProductVisual
+                              product={product}
+                              category={category}
+                              className="aspect-4/3"
+                            />
+                          )}
+                          <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/70 to-transparent p-2">
+                            <p className="truncate font-display text-[0.68rem] font-semibold text-paper">
+                              {product.name}
+                            </p>
+                          </div>
+                        </Link>
+                      );
+                    })}
                   </div>
 
                   <div className="mt-3 flex items-center justify-between border-t border-line pt-3">
@@ -159,13 +163,13 @@ export default async function HomePage() {
 
       {/* ── Categories ───────────────────────────────────────── */}
       <section className="border-y border-line bg-paper-2/40">
-        <div className="shell py-20 lg:py-28">
+        <div className="shell py-12 lg:py-16">
           <SectionHeading
             index="01"
             eyebrow="Kategori"
-            title="Semua kebutuhan, satu katalog."
+            title="Semua kebutuhan, satu tempat belanja."
             description="Pilih kategori untuk mulai menjelajah produk. Setiap produk dilengkapi spesifikasi dan panduan awam."
-            link={{ label: "Lihat seluruh katalog", href: "/katalog" }}
+            link={{ label: "Lihat semua produk", href: "/katalog" }}
           />
 
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -216,7 +220,7 @@ export default async function HomePage() {
       </section>
 
       {/* ── Featured products ────────────────────────────────── */}
-      <section className="shell py-20 lg:py-28">
+      <section className="shell py-12 lg:py-16">
         <SectionHeading
           index="02"
           eyebrow="Produk"
@@ -241,7 +245,7 @@ export default async function HomePage() {
       {/* ── Latest articles ──────────────────────────────────── */}
       {latestArticles.length > 0 && (
         <section className="border-y border-line bg-paper-2/40">
-          <div className="shell py-20 lg:py-28">
+          <div className="shell py-12 lg:py-16">
             <SectionHeading
               index="03"
               eyebrow="Artikel"
@@ -281,7 +285,7 @@ export default async function HomePage() {
       )}
 
       {/* ── CTA ──────────────────────────────────────────────── */}
-      <section className="shell pb-20 lg:pb-28">
+      <section className="shell pb-12 lg:pb-16">
         <Reveal className="relative overflow-hidden border border-ink bg-accent">
           <div className="blueprint absolute inset-0 text-white opacity-30" />
           <div className="relative flex flex-col gap-8 p-8 sm:p-12 lg:flex-row lg:items-end lg:justify-between lg:p-16">

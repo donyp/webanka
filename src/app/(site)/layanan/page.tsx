@@ -22,7 +22,7 @@ const audiences = [
   },
   {
     title: "Toko Bangunan & Reseller",
-    body: "Pasokan rutin dengan harga distributor, dukungan katalog, dan prioritas stok untuk item yang cepat berputar.",
+    body: "Pasokan rutin dengan harga distributor, dukungan produk, dan prioritas stok untuk item yang cepat berputar.",
     points: ["Harga reseller", "Stok prioritas", "Katalog bersama"],
   },
   {

@@ -32,7 +32,7 @@ export default function NotFound() {
           href="/katalog"
           className="inline-flex items-center gap-2 rounded-full border border-ink px-6 py-3.5 text-sm font-semibold text-ink transition-colors hover:bg-ink hover:text-paper"
         >
-          Lihat katalog
+          Lihat produk
           <ArrowUpRight className="size-4" />
         </Link>
       </div>

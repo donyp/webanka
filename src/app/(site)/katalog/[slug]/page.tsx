@@ -105,7 +105,7 @@ export default async function ProductPage({
           className="group mb-8 inline-flex items-center gap-2 text-sm font-semibold text-muted transition-colors hover:text-ink"
         >
           <ArrowLeft className="size-4 transition-transform duration-300 group-hover:-translate-x-1" />
-          Kembali ke katalog
+          Kembali ke produk
         </Link>
 
         <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14">
