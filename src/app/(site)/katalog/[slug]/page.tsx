@@ -67,7 +67,6 @@ export default async function ProductPage({
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.name,
-    sku: product.sku,
     description: product.short,
     category: category.name,
     brand: { "@type": "Brand", name: product.brand },
@@ -181,10 +180,10 @@ export default async function ProductPage({
               </div>
               <div className="text-right">
                 <p className="text-[0.62rem] font-semibold uppercase tracking-[0.14em] text-muted">
-                  SKU
+                  Merek
                 </p>
                 <p className="mt-1 font-display text-sm font-semibold text-ink">
-                  {product.sku}
+                  {product.brand}
                 </p>
               </div>
             </div>

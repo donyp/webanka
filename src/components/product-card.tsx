@@ -51,7 +51,7 @@ export function ProductCard({
 
         <div className="mt-auto pt-5">
           <span className="text-[0.62rem] font-semibold uppercase tracking-[0.12em] text-muted">
-            {product.sku || "-"}
+            Satuan: {product.unit}
           </span>
         </div>
       </div>
