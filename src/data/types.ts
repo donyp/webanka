@@ -9,6 +9,19 @@ export type Category = {
   ink: string;
 };
 
+export type StockStatus = "available" | "low" | "out";
+
+export type Inquiry = {
+  id: string;
+  name: string;
+  company?: string;
+  contact: string;
+  category?: string;
+  message: string;
+  createdAt: string;
+  read?: boolean;
+};
+
 export type Product = {
   slug: string;
   name: string;
@@ -25,6 +38,8 @@ export type Product = {
   badge?: string;
   image?: string;
   dimensionImage?: string;
+  stockStatus?: StockStatus;
+  stockQty?: number;
   catalogUrl?: string;
 };
 
@@ -106,6 +121,7 @@ export type Content = {
   articleCategories: ArticleCategory[];
   articles: Article[];
   auditLog: AuditEntry[];
+  inquiries: Inquiry[];
   updatedAt: string;
 };
 

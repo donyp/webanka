@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ArrowRight, Check, WhatsApp } from "./icons";
 import type { Category, SiteLinks } from "@/data/types";
+import { submitInquiryAction } from "@/app/admin/actions";
 
 const inputClass =
   "h-12 w-full rounded-lg border border-line bg-paper px-4 text-sm text-ink outline-none transition-colors placeholder:text-muted/60 focus:border-ink";
@@ -16,10 +17,16 @@ export function ContactForm({
 }) {
   const [sent, setSent] = useState(false);
 
-  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const form = event.currentTarget;
     const data = new FormData(form);
+
+    try {
+      await submitInquiryAction(data);
+    } catch {
+      // Simpanan gagal tidak menghalangi pengiriman via WhatsApp.
+    }
 
     const lines = [
       "Halo ANKA, saya ingin meminta penawaran.",

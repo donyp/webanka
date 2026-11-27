@@ -21,7 +21,9 @@ const links = [
   { href: "/admin/produk", label: "Produk", icon: BoxIcon },
   { href: "/admin/kategori", label: "Kategori", icon: TagIcon },
   { href: "/admin/konten", label: "Konten", icon: ContentIcon },
+  { href: "/admin/media", label: "Media", icon: ContentIcon },
   { href: "/admin/artikel", label: "Artikel", icon: PencilIcon },
+  { href: "/admin/permintaan", label: "Permintaan", icon: ContentIcon },
   { href: "/admin/pengaturan", label: "Pengaturan", icon: SettingsIcon },
 ];
 

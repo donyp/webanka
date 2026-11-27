@@ -44,6 +44,7 @@ export async function readContent(): Promise<Content> {
     articleCategories: parsed.articleCategories ?? [],
     articles: parsed.articles ?? [],
     auditLog: parsed.auditLog ?? [],
+    inquiries: parsed.inquiries ?? [],
     updatedAt: parsed.updatedAt ?? new Date().toISOString(),
   };
 }

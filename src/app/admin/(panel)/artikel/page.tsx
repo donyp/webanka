@@ -4,7 +4,7 @@ import { BackLink, PageHeader } from "@/components/admin/ui";
 import { DeleteForm } from "@/components/admin/delete-form";
 import { deleteArticleAction } from "@/app/admin/actions";
 import { PencilIcon, TrashIcon } from "@/components/admin/icons";
-import { Plus } from "@/components/icons";
+import { Plus, ArrowUpRight } from "@/components/icons";
 
 export default async function AdminArticlesPage() {
   const content = await readContent();
@@ -22,6 +22,7 @@ export default async function AdminArticlesPage() {
                 <td className="px-4 py-3 text-muted">{a.status}</td>
                 <td className="px-4 py-3">
                   <div className="flex justify-end gap-1">
+                    <Link href={`/admin/artikel/${a.slug}/preview`} className="flex size-8 items-center justify-center rounded-full border border-line text-muted hover:border-ink hover:text-ink" title="Preview"><ArrowUpRight className="size-3.5" /></Link>
                     <Link href={`/admin/artikel/${a.slug}`} className="flex size-8 items-center justify-center rounded-full border border-line text-muted hover:border-ink hover:text-ink"><PencilIcon className="size-3.5" /></Link>
                     <DeleteForm action={deleteArticleAction} message={`Hapus ${a.title}?`}>
                       <input type="hidden" name="slug" value={a.slug} />

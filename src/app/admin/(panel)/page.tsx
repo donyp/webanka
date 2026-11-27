@@ -34,11 +34,17 @@ export default async function AdminDashboard() {
   const completeness = content.products.length
     ? Math.round((complete / content.products.length) * 100)
     : 0;
+  const lowStock = content.products.filter(
+    (p) => (p.stockStatus ?? "available") !== "available",
+  ).length;
+  const unreadInquiries = (content.inquiries ?? []).filter((i) => !i.read).length;
 
   const stats = [
     { label: "Produk", value: content.products.length, icon: BoxIcon },
     { label: "Kategori", value: content.categories.length, icon: TagIcon },
     { label: "Unggulan", value: featured, icon: Star },
+    { label: "Stok menipis/habis", value: lowStock, icon: TagIcon },
+    { label: "Permintaan baru", value: unreadInquiries, icon: ContentIcon },
   ];
 
   const recent = content.products.slice(0, 6);
@@ -147,6 +153,8 @@ export default async function AdminDashboard() {
               {[
                 { href: "/admin/produk/baru", label: "Tambah produk", icon: Plus },
                 { href: "/admin/kategori/baru", label: "Tambah kategori", icon: TagIcon },
+                { href: "/admin/permintaan", label: "Permintaan penawaran", icon: ContentIcon },
+                { href: "/admin/media", label: "Pustaka media", icon: ContentIcon },
                 { href: "/admin/konten", label: "Edit konten", icon: ContentIcon },
                 { href: "/admin/pengaturan", label: "Pengaturan situs", icon: SettingsIcon },
               ].map((item) => {

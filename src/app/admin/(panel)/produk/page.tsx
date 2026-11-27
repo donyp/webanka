@@ -17,15 +17,17 @@ import { ArrowUpRight, Plus, Search } from "@/components/icons";
 export default async function AdminProductsPage({
   searchParams,
 }: {
-  searchParams: Promise<{ q?: string; kategori?: string; saved?: string; error?: string }>;
+  searchParams: Promise<{ q?: string; kategori?: string; stok?: string; saved?: string; error?: string }>;
 }) {
-  const { q = "", kategori = "", saved, error } = await searchParams;
+  const { q = "", kategori = "", stok = "", saved, error } = await searchParams;
   const content = await readContent();
 
   const query = q.trim().toLowerCase();
   const products = content.products.filter((product) => {
     const matchCategory = !kategori || product.category === kategori;
     if (!matchCategory) return false;
+    const matchStock = !stok || (product.stockStatus ?? "available") === stok;
+    if (!matchStock) return false;
     if (!query) return true;
     return [product.name, product.sku, product.brand, ...product.tags]
       .join(" ")
@@ -56,7 +58,7 @@ export default async function AdminProductsPage({
       <form
         method="get"
         action="/admin/produk"
-        className="grid gap-3 border border-line bg-white p-4 sm:grid-cols-[1fr_14rem_auto]"
+        className="grid gap-3 border border-line bg-white p-4 sm:grid-cols-[1fr_14rem_12rem_auto]"
       >
         <div className="relative">
           <Search className="pointer-events-none absolute top-1/2 left-3.5 size-4 -translate-y-1/2 text-muted" />
@@ -74,6 +76,12 @@ export default async function AdminProductsPage({
               {category.name}
             </option>
           ))}
+        </select>
+        <select name="stok" defaultValue={stok} className={selectClass}>
+          <option value="">Semua stok</option>
+          <option value="available">Tersedia</option>
+          <option value="low">Menipis</option>
+          <option value="out">Habis</option>
         </select>
         <button type="submit" className={btnGhost}>
           Filter
@@ -115,13 +123,28 @@ export default async function AdminProductsPage({
                   {categoryName(product.category)}
                 </td>
                 <td className="px-4 py-3">
-                  {product.featured ? (
-                    <span className="rounded-full bg-accent-soft px-2.5 py-1 text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-accent-dark">
-                      Unggulan
+                  <div className="flex flex-wrap gap-1">
+                    {product.featured && (
+                      <span className="rounded-full bg-accent-soft px-2.5 py-1 text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-accent-dark">
+                        Unggulan
+                      </span>
+                    )}
+                    <span
+                      className={`rounded-full px-2.5 py-1 text-[0.6rem] font-semibold uppercase tracking-[0.1em] ${
+                        (product.stockStatus ?? "available") === "available"
+                          ? "bg-green-100 text-green-700"
+                          : (product.stockStatus ?? "available") === "low"
+                            ? "bg-amber-100 text-amber-700"
+                            : "bg-red-100 text-red-700"
+                      }`}
+                    >
+                      {(product.stockStatus ?? "available") === "available"
+                        ? "Tersedia"
+                        : (product.stockStatus ?? "available") === "low"
+                          ? "Menipis"
+                          : "Habis"}
                     </span>
-                  ) : (
-                    <span className="text-xs text-muted">—</span>
-                  )}
+                  </div>
                 </td>
                 <td className="px-4 py-3">
                   <div className="flex items-center justify-end gap-1">

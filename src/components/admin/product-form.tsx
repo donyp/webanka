@@ -124,6 +124,35 @@ export function ProductForm({
             />
           </Field>
 
+          <Field label="Status stok" htmlFor="stockStatus">
+            <select
+              id="stockStatus"
+              name="stockStatus"
+              defaultValue={product?.stockStatus ?? "available"}
+              className={selectClass}
+            >
+              <option value="available">Tersedia</option>
+              <option value="low">Menipis</option>
+              <option value="out">Habis</option>
+            </select>
+          </Field>
+
+          <Field
+            label="Jumlah stok (opsional)"
+            htmlFor="stockQty"
+            hint="Kosongkan jika tidak ingin menampilkan jumlah."
+          >
+            <input
+              id="stockQty"
+              name="stockQty"
+              type="number"
+              min={0}
+              defaultValue={product?.stockQty}
+              placeholder="0"
+              className={inputClass}
+            />
+          </Field>
+
           <label className="flex items-center gap-3 self-end rounded-lg border border-line bg-paper-2/40 px-4 py-3 text-sm text-ink">
             <input
               type="checkbox"

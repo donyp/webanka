@@ -1,6 +1,6 @@
 "use server";
 
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, writeFile, readdir, unlink } from "node:fs/promises";
 import path from "node:path";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
@@ -15,6 +15,7 @@ import {
   type FaqItem,
   type NavItem,
   type ProcessItem,
+  type Inquiry,
   type Product,
   type ServiceItem,
   type StatItem,
@@ -205,6 +206,9 @@ async function readProduct(form: FormData): Promise<Product> {
     image: uploaded ?? (removeImage ? undefined : currentImage),
     dimensionImage:
       uploadedDimension ?? (removeDimensionImage ? undefined : currentDimensionImage),
+    stockStatus:
+      (text(form, "stockStatus") as "available" | "low" | "out") || "available",
+    stockQty: Number(text(form, "stockQty")) || undefined,
     catalogUrl: text(form, "catalogUrl") || undefined,
   };
 }
@@ -280,6 +284,71 @@ export async function deleteProductAction(form: FormData) {
 
   refresh();
   redirect("/admin/produk?saved=Produk+dihapus");
+}
+
+/* Media library */
+export async function deleteMediaAction(form: FormData) {
+  await guard();
+  const filename = text(form, "filename");
+  if (!filename) return;
+  const dir = process.env.ANKA_UPLOADS_DIR
+    ? path.resolve(process.env.ANKA_UPLOADS_DIR)
+    : path.join(process.cwd(), "public", "uploads", "products");
+  const target = path.join(dir, filename);
+  // prevent path traversal
+  if (path.basename(target) !== filename) return;
+  try {
+    await unlink(target);
+  } catch {
+    // ignore
+  }
+  refresh();
+}
+
+/* Inquiries / RFQ */
+export async function submitInquiryAction(form: FormData) {
+  const inquiry: Inquiry = {
+    id: crypto.randomUUID(),
+    name: text(form, "name"),
+    company: text(form, "company") || undefined,
+    contact: text(form, "contact"),
+    category: text(form, "category") || undefined,
+    message: text(form, "message"),
+    createdAt: new Date().toISOString(),
+    read: false,
+  };
+
+  if (!inquiry.name || !inquiry.contact || !inquiry.message) return;
+
+  await updateContent((draft) => {
+    if (!draft.inquiries) draft.inquiries = [];
+    draft.inquiries.unshift(inquiry);
+    draft.inquiries = draft.inquiries.slice(0, 200);
+    audit(draft, "create", "inquiry", inquiry.id);
+  });
+  refresh();
+}
+
+export async function markInquiryReadAction(form: FormData) {
+  await guard();
+  const id = text(form, "id");
+  await updateContent((draft) => {
+    if (!draft.inquiries) return;
+    const item = draft.inquiries.find((i) => i.id === id);
+    if (item) item.read = true;
+  });
+  refresh();
+}
+
+export async function deleteInquiryAction(form: FormData) {
+  await guard();
+  const id = text(form, "id");
+  await updateContent((draft) => {
+    if (!draft.inquiries) return;
+    draft.inquiries = draft.inquiries.filter((i) => i.id !== id);
+    audit(draft, "delete", "inquiry", id);
+  });
+  refresh();
 }
 
 /* Categories */
