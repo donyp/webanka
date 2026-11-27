@@ -12,6 +12,7 @@ import {
 } from "./ui";
 import { SaveIcon } from "./icons";
 import { ArrowUpRight } from "@/components/icons";
+import { MarkdownEditor } from "./markdown-editor";
 
 export function ArticleForm(props: { article?: Article; categories: ArticleCategory[]; action: (formData: FormData) => Promise<void>; submitLabel: string; saved?: string; error?: string; cancelHref?: string; }) {
   const { article, categories, action, submitLabel, saved, error, cancelHref = "/admin/artikel" } = props;
@@ -54,9 +55,9 @@ export function ArticleForm(props: { article?: Article; categories: ArticleCateg
           </label>
         </div>
       </Panel>
-      <Panel title="Konten" description="Tulis dengan Markdown.">
+      <Panel title="Konten" description="Tulis dengan toolbar rich text. Disimpan sebagai Markdown.">
         <Field label="Isi artikel" htmlFor="content">
-          <textarea id="content" name="content" rows={16} defaultValue={article?.content} className={textareaClass} />
+          <MarkdownEditor name="content" defaultValue={article?.content} rows={18} />
         </Field>
       </Panel>
       <Panel title="Media & tag">
