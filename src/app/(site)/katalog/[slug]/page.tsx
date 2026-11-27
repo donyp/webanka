@@ -60,7 +60,7 @@ export default async function ProductPage({
     content.categories[0];
   const related = getRelated(content.products, product);
   const waText = encodeURIComponent(
-    `Halo ANKA, saya ingin menanyakan produk ${product.name} (${product.sku}).`,
+    `Halo ANKA, saya ingin menanyakan produk ${product.name} .`,
   );
 
   const productJsonLd = {
@@ -93,7 +93,7 @@ export default async function ProductPage({
             {category.name}
           </Link>
           <span className="text-line">/</span>
-          <span className="text-ink">{product.sku}</span>
+          <span className="text-ink">{product.name}</span>
         </div>
       </div>
 
